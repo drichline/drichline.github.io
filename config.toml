@@ -1,0 +1,8 @@
+baseURL = "https://derekrichline.net/"
+languageCode = "en-us"
+title = "Derek Richline"
+
+disableKinds=["RSS"]
+
+[markup.goldmark.renderer]
+unsafe= true

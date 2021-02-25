@@ -1,0 +1,72 @@
+<<!DOCTYPE html>
+<html lang="en">
+<!-- Video player from W3schools -->
+<head>
+<title>Vici Kid</title>
+<style>
+        body {
+            background: black;
+        }
+        #video {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            min-width: 50%;
+            min-height: 50%;
+            margin: auto;
+            transform: translateX(calc((100% - 100vw) / 2));
+        }
+        .content {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.3);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+            margin: 0;
+        }
+
+        #myBtn {
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        #myBtn:hover {
+            background: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop id="video">
+        <source src="/files/vicikid.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="content">
+        <h1>Vici Kid</h1>
+        <p>Vici kid: A trademark for high quality chrome-tanned kidskin with a soap and oil finish, developed by Robert Foederer in Philadelphia in the mid-1880s.</p>
+        <button id="myBtn" onclick="myFunction()">Play</button>
+        </div>
+        
+        <script>
+        var video = document.getElementById("video");
+        var btn = document.getElementById("myBtn");
+        
+        function myFunction() {
+        if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+        } else {
+            video.pause();
+            btn.innerHTML = "Play";
+        }
+        }
+        </script>
+</body>
+</html>

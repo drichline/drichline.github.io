@@ -1,0 +1,24 @@
+<main>
+    <div class="content">
+    <section>
+    {{ if not .IsHome }} 
+        <h1>{{ .Title }}</h1>
+    {{ end }}
+    {{ .Content }}
+    {{ if eq .Kind "section" }}
+    {{ range .Pages }}
+    <ul>
+        <li>
+            <span style="margin-right: 1rem;">({{ .Date.Format "2006" }})</span><a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+    </ul>
+    {{ end }}
+    {{ end }}
+    {{ if eq .Kind "page" }}
+    {{ with .Page.Lastmod }}
+        <p>Last modified: {{ .Format "01/02/2006" }}</p>
+    {{ end }}
+    {{ end }}
+    </section>
+    </div>
+</main>
