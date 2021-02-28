@@ -11,19 +11,27 @@ I've always been a fan of electric vehicles, but I'm not a fan of excessively he
 
 For those unfamiliar with electric and hybrid vehicles, jargon used in this post is defined below. 
 
-* EV/BEV: Battery electric vehicle. This is an electric car powered solely by batteries
+EV/BEV
+: Battery electric vehicle. This is an electric car powered solely by batteries
 
-* ICE: Internal combustion engine. A gasoline/diesel powered engine like those found in a typical car. 
+ICE
+: Internal combustion engine. A gasoline/diesel powered engine like those found in a typical car. 
 
-* Range extender: An ICE that generates electricity to power a vehicle
+Range extender
+: An ICE that generates electricity to power a vehicle
 
-* Traction motor: An electric motor that moves a BEV or hybrid. 
+Traction motor
+: An electric motor that moves a BEV or hybrid. 
 
 ## Series and Parallel Hybrids
 
 Most hybrid cars are *parallel* hybrids: the engine and motor are connected to the wheels through some sort of transmission. Battery sizes vary wildly: the 2021 Toyota Prius stores 8 times as much energy as the 2021 Honda Insight even though both work similarly. Parallel hybrids switch between running on gasoline, electricity, or both depending on a variety of factors. 
 
-In a *series* hybrid, the engine is not directly connected to the wheels; it generates electricity to power an electric traction motor. The BMW i3 Rex is a true series hybrid: a battery-powered electric car that happens to carry a backup motor for emergencies. Some series hybrids blur the line between hybrids and electric vehicles. For example, the Chevy Volt and Honda Accord use transmission clutches to seamlessly switch between series and parallel operation while driving, but only the Chevy is usable as a BEV. For the purposes of this ramble, *series hybrid* refers to electric vehicles with a range extender, such as the i3 Rex. 
+In a *series* hybrid, the engine is not directly connected to the wheels; it generates electricity to power an electric traction motor. The BMW i3 Rex is a true series hybrid: a battery-powered electric car that happens to carry a backup motor for emergencies. Some series hybrids blur the line between hybrids and electric vehicles. For example, the Chevy     Volt and Honda Accord use transmission clutches to seamlessly switch between series and parallel operation while driving, but only the Chevy is usable as a BEV. For the purposes of  this ramble, *series hybrid* refers to electric vehicles with a range extender, such as the i3 Rex. 
+
+## Disadvantages
+
+A series hybrid has some downsides compared to parallel hybrids and BEVs. While many parallel hybrids use their engine for quicker acceleration, series hybrids are limited to the power of their electric motor. Parallel hybrids can also seamlessly switch to burning gas when the battery is low, without forcing the driver to slow down. When the battery of a series hybrid is depleted, the car's *average power* is limited to the output power of the range extender: roughly 30kW for the i3, or a top speed of 90 km/h. 
 
 ## Maintenance and Reliability
 
@@ -49,9 +57,7 @@ Combustion engines are made out of simple metals and are already easier to recyc
 
 Hydrogen fuel cells appear to be a promising alternative to batteries and combustion engines, but their automotive use is extremely limited. A hydrogen vehicle can be refueled like a normal ICE car, but hydrogen fuel is not widespread; the only hydrogen fuelling stations are clustered around Los Angeles. Unlike fuel cell vehicles, the perfect infrastructure already exists for series hybrids: widespread BEV charging stations *and* gas stations everywhere, many of which currently sell clean fuels like E85 and 88 octane. 
 
-## Disadvantages
-
-A series hybrid has some downsides compared to parallel hybrids and BEVs. While many parallel hybrids use their engine for quicker acceleration, series hybrids are limited to the power of their electric motor. Parallel hybrids can also seamlessly switch to burning gas when the battery is low, without forcing the driver to slow down. When the battery of a series hybrid is depleted, the car is limited to the output power of the range extender: roughly 30kW for the i3, or a top speed of 90 km/h. 
+---
 
 [1] "IAA 2013: BMW i3" by motorblog is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/
 

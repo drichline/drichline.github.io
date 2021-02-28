@@ -1,3 +1,15 @@
+/*
+    COLOR LEVELS: 
+        #121212 (100% tint)
+        #2a2a2a (90% tint)
+        #414141 (80% tint)
+        #595959 (70% tint)
+    
+    "Light" color: #e0e0e0
+
+    "Link" color: #0181eb
+*/
+
 html {
     margin: 0;
     padding: 0;
@@ -175,13 +187,41 @@ main {
 
 .content p {
     line-height: 1.4;
+    margin-bottom: 2rem;
 }
 
-.content p, .content li {
+.content blockquote {
+    background-color:#414141;
+    border-radius: 0.5rem;
+    border-left: 0.5rem solid #595959;
+}
+
+.content code {
+    background-color: #414141;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    font-size: 16px;
+}
+
+.content .highlight {
+    margin: 1rem; /*Same margin as <p>*/
+}
+
+.content .highlight code { /*Format multi-line code blocks that use the <highlight> shortcode*/
+    display: block;
+    overflow: auto;
+    font-size: 16px;
+    border-radius: 0.5rem;
+}
+
+.content p, .content li, .content dl, .content dt {
     margin: 0.7rem;
-    margin-bottom: 2rem;
     font-family: 'Open Sans';
     font-size: 18px;
+}
+
+.content dt {
+    font-weight: bold;
 }
 
 .content ul {
