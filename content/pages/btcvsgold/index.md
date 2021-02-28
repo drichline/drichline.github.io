@@ -11,7 +11,7 @@ As of Jan. 2021, the United States owns 261.5MM Troy oz. of gold [1], and the to
 
 $$\frac{261.5\*10^6ozT}{5.6\*10^9ozT}\*100\\%\approx4.67\\%$$
 
-Satoshi Nakomoto (the unknown person or persons who invented Bitcoin) is thought to own at least 1MM Bitcoin, and the supply limit is limited to 21MM by the Bitcoin protocol. [3] Therefore, "Satoshi" controls 4.76% of the supply:
+Satoshi Nakomoto (the unknown person or persons who invented Bitcoin) is thought to own at least 1MM Bitcoin, and the supply is limited to 21MM by the Bitcoin protocol. [3] Therefore, Satoshi controls 4.76% of the supply:
 
 $$\frac{1\*10^6₿}{21\*10^6₿}*100\\%\approx4.76\\%$$
 
