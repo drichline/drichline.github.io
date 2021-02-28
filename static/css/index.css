@@ -196,6 +196,10 @@ main {
     width: 100%;
 }
 
+.content video {
+    width: 100%;
+}
+
 .content figure {
     width: 50%;
     padding: 1rem;
