@@ -5,11 +5,11 @@
         <h1>{{ .Title }}</h1>
     {{ end }}
     {{ .Content }}
-    {{ if eq .Kind "section" }}
+    {{ if eq .Title "Pages" }}
     {{ range .Pages }}
     <ul>
         <li>
-            <span style="margin-right: 1rem;">({{ .Date.Format "2006" }})</span><a href="{{ .Permalink }}">{{ .Title }}</a>
+            <span style="margin-right: 1rem;">({{ .Date.Format "Jan 2006" }})</span><a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>
     </ul>
     {{ end }}
