@@ -214,6 +214,11 @@ main {
     border-radius: 0.5rem;
 }
 
+.content .katex {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
 .content p, .content li, .content dl, .content dt {
     margin: 0.7rem;
     font-family: 'Open Sans';
@@ -340,3 +345,15 @@ footer p {
         margin-top: 1rem;
     }
 }
+
+/*Webfonts*/
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(/webfonts/OpenSans-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: 'Tinos';
+    src: url(/webfonts/Tinos-Regular.ttf);
+  }
