@@ -9,7 +9,7 @@ I was curious what Formula E would be like with a fuel cell instead of batteries
 
 ## Energy storage of various vehicles
 
-A 2nd generation Formula E car has a 50kWh battery. (I prefer kWh over MJ #sorrynotsorry)
+A 2nd generation Formula E car has a 54kWh battery. (I prefer kWh over MJ #sorrynotsorry)
 
 A street-legal Honda Clarity FCEV holds 5.46kg of compressed hydrogen gas, or 214kWh:
 
@@ -23,13 +23,13 @@ $$105kg~gasoline\*\frac{1L}{0.75kg}\*\frac{9.5kWh}{1L}\approx1,321kWh$$
 
 ## Efficiency and power output
 
-Fuel cells are only 60% efficient according to the US Dept. of Energy [1], but that's still ~2.5x the usable amount of energy as a current FE car (ignoring the real battery's internal resistance, so the actual number is even better than 2.5x).
+Fuel cells are only 60% efficient according to the US Dept. of Energy [1], but that's still ~2.5x the usable amount of energy as a current Formula E car (ignoring the real battery's internal resistance, so the actual number is even better than 2.5x).
 
-The Clarity's fuel cell outputs 100kW continuous, and only weighs 52kg. [2] It uses a 1.7kWh buffer battery to feed the motor, which is similar to the 1kWh supercapacitor F1 cars use for their MGU-K boost motor. Formula E cars use their 50kWh battery for a 45 minute race, so the average power is 67kW:
+The Clarity's fuel cell outputs 100kW continuous, and only weighs 52kg. [2] It uses a 1.7kWh buffer battery to feed the motor, which is similar to the 1kWh supercapacitor F1 cars use for their MGU-K boost motor. Formula E cars use their 54kWh battery for a 45 minute race, so the average power is 72kW:
 
-$$\bar{P}=\frac{50kWh}{0.75h}=66.67kW$$
+$$\bar{P}=\frac{54kWh}{0.75h}=72kW$$
 
-The Clarity fuel cell's average power output should be sufficient for a race, but the FE car would probably need a larger supercapacitor to handle the 250kW bursts. Luckily, the 52kg fuel cell would be replacing a 250kg battery, so there should be plenty of room for a capacitor energy store. 
+The Clarity fuel cell's average power output should be sufficient for a race, but the Formula E car would probably need a larger supercapacitor to handle the 250kW bursts. Luckily, the 52kg fuel cell would be replacing a 250kg battery, so there should be plenty of room for a capacitor energy store. 
 
 ## Safety
 
