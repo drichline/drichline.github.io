@@ -7,7 +7,7 @@ Some proponents of Bitcoin claim it to be a store of value on par with gold. How
 
 ## Problem 1: Supply Distribution
 
-As of Jan. 2021, the United States owns 261.5MM Troy oz. of gold [1], and the total world supply is roughly 5.6B Troy oz. Therefore, the US controls 4.67% of the gold supply: 
+As of Jan. 2021, the United States owns 261.5MM Troy oz. of gold [1], and the total world supply is roughly 5.6B Troy oz. [2] Therefore, the US controls 4.67% of the gold supply: 
 
 $$\frac{261.5\*10^6ozT}{5.6\*10^9ozT}\*100\\%\approx4.67\\%$$
 

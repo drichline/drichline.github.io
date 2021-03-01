@@ -4,6 +4,9 @@
     {{ if not .IsHome }} 
         <h1>{{ .Title }}</h1>
     {{ end }}
+    {{ if (.Params.toc) }} <!-- Add table of contents to any page with TOC enabled -->
+        {{.TableOfContents}}
+    {{ end }}
     {{ .Content }}
     {{ if eq .Title "Pages" }}
     {{ range .Pages }}

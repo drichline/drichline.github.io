@@ -1,6 +1,7 @@
 ---
 title: "Why Series Hybrids Are the Most Elegant Electric Vehicles"
 date: "2021-02-24"
+toc: "true"
 ---
 
 ## Introduction
@@ -9,7 +10,7 @@ I've always been a fan of electric vehicles, but I'm not a fan of excessively he
 
 ## Definitions
 
-For those unfamiliar with electric and hybrid vehicles, jargon used in this post is defined below. 
+For those unfamiliar with electric and hybrid vehicles, jargon used in this article is defined below. 
 
 EV/BEV
 : Battery electric vehicle. This is an electric car powered solely by batteries
@@ -27,7 +28,7 @@ Traction motor
 
 Most hybrid cars are *parallel* hybrids: the engine and motor are connected to the wheels through some sort of transmission. Battery sizes vary wildly: the 2021 Toyota Prius stores 8 times as much energy as the 2021 Honda Insight even though both work similarly. Parallel hybrids switch between running on gasoline, electricity, or both depending on a variety of factors. 
 
-In a *series* hybrid, the engine is not directly connected to the wheels; it generates electricity to power an electric traction motor. The BMW i3 Rex is a true series hybrid: a battery-powered electric car that happens to carry a backup motor for emergencies. Some series hybrids blur the line between hybrids and electric vehicles. For example, the Chevy     Volt and Honda Accord use transmission clutches to seamlessly switch between series and parallel operation while driving, but only the Chevy is usable as a BEV. For the purposes of  this ramble, *series hybrid* refers to electric vehicles with a range extender, such as the i3 Rex. 
+In a *series* hybrid, the engine is not directly connected to the wheels; it generates electricity to power an electric traction motor. The BMW i3 Rex is a true series hybrid: a battery-powered electric car that happens to carry a backup motor for emergencies. Some series hybrids blur the line between hybrids and electric vehicles. For example, the Chevy     Volt and Honda Accord use transmission clutches to seamlessly switch between series and parallel operation while driving, but only the Chevy is usable as a BEV. For the purposes of this article, *series hybrid* refers to electric vehicles with a range extender, such as the i3 Rex. 
 
 ## Disadvantages
 
