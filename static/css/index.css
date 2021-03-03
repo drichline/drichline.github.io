@@ -246,7 +246,8 @@ main {
 }
 
 .content figure {
-    width: 50%;
+    display: table;
+    max-width: 70%;
     padding: 1rem;
     position: relative;
     margin: auto;
@@ -310,7 +311,7 @@ footer p {
         padding: 1rem;
     }
     .content figure {
-        width: auto!important;
+        max-width:100%!important;
     }
 
 }
