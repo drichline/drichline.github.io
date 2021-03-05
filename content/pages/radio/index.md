@@ -5,9 +5,7 @@ lastmod: "2021-02-24"
 ---
 
 * Callsign: KQ6G (Originally KC3KCP, then AC3BY)
-* 
 * Gridsquare: EL98 (Originally FN20)
-* 
 * ULS record: 3981155
 
 ---
