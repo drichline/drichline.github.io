@@ -1,6 +1,7 @@
 ---
 title: "Riding the Legend: Daily-riding a Classic Motorcycle"
 date: "2020-09-09"
+lastmod: "2021-03-07"
 aliases: "/pages/motorcycles/"
 ---
 
@@ -35,3 +36,5 @@ The Honda Nighthawk is an unassuming motorcycle that serves as a fun reminder of
 {{< figure src="straphoist.jpg" caption="Changing tires without a motorcycle jack" >}}
 
 {{< figure src="frame.jpg" caption="The CB250 frame: A beautifully simple piece of Japanese value engineering" >}}
+
+{{< figure src="dirtyvisor.jpg" caption="*Good thing my helmet was closed!*" >}}

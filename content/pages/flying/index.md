@@ -1,12 +1,16 @@
 ---
 title: "Flying"
 date: "2019-01-01"
+lastmod: "2021-03-07"
 ---
+{{< figure src="fuelling.jpg" caption="Filling N909AB with enough gas for a 1,300km flight" >}}
 
-It's a strange origin story, but a combination of meeting a pilot and playing too much GTA got me interested in aviation. I took my first discovery flight at KXLL in 2017, and another in 2018 in a '68 Navajo. 
+It's a strange origin story, but a combination of meeting a pilot and playing too much GTA got me interested in aviation. I took my first discovery flight at KXLL in 2017, and another in 2018 in a '68 Navajo. I was working on a sport license with AB Flight/Gateway Aviation at KXLL and reached the solo sign-off, but never soloed or progressed further for personal reasons. 
 
-I'm currently working on a sport license with Gateway Aviation at KXLL. The Evektor Sportstar I'm flying is an awesome aircraft. It has a great interior and it's responsive to fingertip pressure. The only issues I've noticed so far are difficult to adjust rudder pedals and an annoying screw throtle.
+The Evektor Harmony I flew is an incredibly sweet-flying aircraft. It has a great interior with full glass and a bubble canopy, and it's responsive to fingertip pressure. I initially learned to land without flaps, and still never bounced a landing thanks to the Harmony's excellent handling in ground effect. My only complaints were are difficult to adjust rudder pedals and an annoying screw throttle.
 
-{{< figure src="discoveryflight.jpg" caption="Me flying for the first time in 2017. Excuse the werid face- it was a candid." >}}
+{{< figure src="discoveryflight.jpg" caption="My DA-20 discovery flight in 2017. Excuse the weird face; it was a candid." >}}
 
-{{< figure src="navajo.jpg" caption="Flying the Navajo on my birthday">}}
+{{< figure src="navajo.jpg" caption="Discovery flight in a Navajo on my birthday">}}
+
+{{< figure src="da-40.jpg" caption="Right-seat view from a flight to Connecticut in a DA-40" >}}
