@@ -5,17 +5,19 @@ title: "About Me"
 
 * I'm a huge fan and new resident of Florida's Space Coast
 * I used to [fly airplanes](/pages/flying/) (and will gladly accept more flight hours!)
-* I like to [make all sorts of things](/pages/fablab/). Formerly, custom guitars
-* I'm an engineering student at Florida Tech
-* Mercedes is my favorite F1 team and car company
+* I like to make all sorts of things. Formerly, custom guitars
+    * I have CNC experience as a hobby and in a production machine shop
+* Mercedes is my favorite Formula 1 team and car company
     * I currently drive a [CLK](clk.jpg)
+    * Lewis Hamilton and George Russell are my favorite drivers
+* I'm an engineering student at Florida Tech
 * I 💜 the metric system
 
 ---
 
 # My personal anthems
 
-## Normal is boring!
+## *Normal is boring!*
 
 {{< youtube Vy-rvsHsi1o >}}
 <br>
