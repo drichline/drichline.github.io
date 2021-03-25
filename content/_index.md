@@ -5,7 +5,7 @@ title: ""
 
 # Hello! 👋🏻
 
-## I'm Derek, and this is my personal website.
+## Welcome to my personal website.
 
 <img style="max-width:40ch; display: block; margin: auto;" src="/images/sporty-transparent.png">
 

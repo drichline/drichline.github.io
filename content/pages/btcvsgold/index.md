@@ -43,4 +43,4 @@ Gold has existed for all of human history, and miners/geologists roughly underst
 
 [7] https://www.bullionstar.com/blogs/ronan-manly/annual-mine-supply-gold-matter/
 
-[8] Render by Derek Richline. Eiffel Tower 3d model by [Pranav Panchal](https://grabcad.com/library/eiffel-tower)
+[8] Render by D. Richline. Eiffel Tower 3d model by [Pranav Panchal](https://grabcad.com/library/eiffel-tower)

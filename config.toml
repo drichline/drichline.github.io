@@ -1,6 +1,6 @@
-baseURL = "https://derekrichline.net/"
+baseURL = "https://richline.rocks/"
 languageCode = "en-us"
-title = "Derek Richline"
+title = "D. Richline"
 
 disableKinds=["RSS"]
 
