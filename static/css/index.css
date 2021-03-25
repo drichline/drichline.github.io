@@ -272,15 +272,6 @@ main {
     margin: 0;
 }
 
-/* Email Obfuscation */
-.email::before {
-	content: "drichl";
-}
-
-.email::after {
-	content: "ine@pm.me";
-}
-
 footer {
     width: auto;
     min-height: 3rem;

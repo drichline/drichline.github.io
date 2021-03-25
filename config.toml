@@ -11,3 +11,26 @@ unsafe= true
 extensions = [
     "DefinitionLists",
 ]
+
+[menu]
+  [[menu.links]]
+    name = "Email: drichline@pm.me"
+    url = "mailto:drichline@pm.me"
+    weight = "1"
+
+  [[menu.links]]
+    name = "Personal site"
+    url = "/"
+    weight = "2"
+
+  [[menu.links]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/derekrichline/"
+    weight = "3"
+
+  [[menu.links]]
+    name = "Instagram"
+    url = "https://www.instagram.com/richline.rocks/"
+    weight = "4"
+
+
