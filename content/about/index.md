@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 ---
-<img id="profile" style="max-width:25ch; display: block; margin: auto;" src="/images/picrew_profile.png">
+<img id="profile" style="max-width:25ch; display: block; margin: auto; border-radius: 50%;" src="/images/picrew_profile.png">
 
 * I'm a huge fan and new resident of Florida's Space Coast
 * I used to [fly airplanes](/pages/flying/) (and will gladly accept more flight hours!)
