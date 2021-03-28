@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 ---
-<img style="max-width:25ch; display: block; margin: auto;" src="roundportrait.png">
+<img id="profile" style="max-width:25ch; display: block; margin: auto;" src="/images/picrew_profile.png">
 
 * I'm a huge fan and new resident of Florida's Space Coast
 * I used to [fly airplanes](/pages/flying/) (and will gladly accept more flight hours!)
@@ -12,16 +12,6 @@ title: "About Me"
     * Lewis Hamilton and George Russell are my favorite drivers
 * I'm an engineering student at Florida Tech
 * I 💜 the metric system
-
----
-
-# My personal anthems
-
-## *Normal is boring!*
-
-{{< youtube Vy-rvsHsi1o >}}
-<br>
-{{< youtube AZKcl4-tcuo >}}
 
 ---
 

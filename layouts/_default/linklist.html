@@ -2,14 +2,14 @@
 <html>
     <head>
         <meta name=viewport content="width=device-width,initial-scale=1">
-        <link rel="icon" type="image/png" href="/images/favicon.png" />
+        <link rel="icon" type="image/png" href="/images/favicon.png">
         <title>D. Richline's Links</title>
         <style>
             * { box-sizing: border-box; }
             html {
             height: 100%;
-            background: #7d7e7d; /* Old browsers */
-            background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            background: #121212; /* Old browsers */
+            background: linear-gradient(to bottom,  #121212 0%,#414141 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
             background-attachment: fixed;
             background-repeat: no-repeat;
             }
@@ -28,7 +28,7 @@
             }
             img
             {
-            background-color: rgba(128, 128, 144, .5);
+            /*background-color: rgba(128, 128, 144, .5);*/
             display:inline-block;
             width: 10rem;
             height: 10rem;
@@ -83,13 +83,13 @@
     </head>
     <body>
         <div class="linklist-wrap">
-        <img src='/about/roundportrait.png'>
+        <img src='/images/picrew_profile.png'>
         <h1>D. Richline</h1>
         <ul>
         {{ range .Site.Menus.links }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
         </ul>
-        <h2>&copy;2018-{{ now.Format "2006" }} {{ .Site.Title }}</h2>
+        <h2>&copy;2018-{{ now.Format "2006" }} D. Richline</h2>
     </body>
 </html>
