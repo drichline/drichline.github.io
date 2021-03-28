@@ -1,6 +1,6 @@
 baseURL = "https://richline.rocks/"
 languageCode = "en-us"
-title = "だこた Richline"
+title = "Dakota Richline"
 
 disableKinds=["RSS"]
 
