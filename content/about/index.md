@@ -9,7 +9,7 @@ title: "About Me"
     * I have CNC experience as a hobby and in a production machine shop
 * Mercedes is my favorite Formula 1 team and car company
     * I currently drive a [CLK](clk.jpg)
-    * Lewis Hamilton and George Russell are my favorite drivers
+    * Lewis Hamilton, Yuki Tsunoda, and George Russell are my favorite drivers
 * I'm an engineering student at Florida Tech
 * I 💜 the metric system
 
