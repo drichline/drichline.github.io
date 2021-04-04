@@ -9,13 +9,13 @@
     {{ end }}
     {{ .Content }}
     {{ if eq .Title "Pages" }}
-    {{ range .Pages }}
     <ul>
+    {{ range .Pages }}
         <li>
             <span style="margin-right: 1rem;">({{ .Date.Format "Jan 2006" }})</span><a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>
-    </ul>
     {{ end }}
+    </ul>
     {{ end }}
     {{ if eq .Kind "page" }}
     {{ with .Page.Lastmod }}

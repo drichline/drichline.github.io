@@ -34,3 +34,5 @@ title: "Pages"
 </form>
 
 Here's a list of everything I've published on this website. 
+<!-- "Pinned" pages -->
+<ul><li><span style="margin-right: 1rem;">(Undated)</span><a href="/booklist">Books I've Enjoyed</a></li></ul>

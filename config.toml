@@ -33,4 +33,7 @@ extensions = [
     url = "https://www.instagram.com/richline.rocks/"
     weight = "4"
 
-
+  [[menu.links]]
+    name = "Books I've Enjoyed"
+    url = "/booklist"
+    weight = "5"
