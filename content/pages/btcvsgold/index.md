@@ -9,11 +9,11 @@ Some proponents of Bitcoin claim it to be a store of value on par with gold. How
 
 As of Jan. 2021, the United States owns 261.5MM Troy oz. of gold [1], and the total world supply is roughly 5.6B Troy oz. [2] Therefore, the US controls 4.67% of the gold supply: 
 
-$$\frac{261.5\*10^6ozT}{5.6\*10^9ozT}\*100\\%\approx4.67\\%$$
+$$\frac{261.5\cdot10^6ozT}{5.6\cdot10^9ozT}\cdot100\\%\approx4.67\\%$$
 
 Satoshi Nakomoto (the unknown person or persons who invented Bitcoin) is thought to own at least 1MM Bitcoin, and the supply is limited to 21MM by the Bitcoin protocol. [3] Therefore, Satoshi controls 4.76% of the supply:
 
-$$\frac{1\*10^6₿}{21\*10^6₿}*100\\%\approx4.76\\%$$
+$$\frac{1\cdot10^6₿}{21\cdot10^6₿}\cdot100\\%\approx4.76\\%$$
 
 If Bitcoin were to seriously displace gold as a store of value, one unknown group or individual holding more value than the *world superpower*'s reserves is a huge liability.
 

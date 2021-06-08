@@ -13,11 +13,11 @@ A 2nd generation Formula E car has a 54kWh battery. (I prefer kWh over MJ #sorry
 
 A street-legal Honda Clarity FCEV holds 5.46kg of compressed hydrogen gas, or 214kWh:
 
-$$5.46kg~H_2\*\frac{1000g}{1kg}\*\frac{1mol~H_2}{2.016g}\*\frac{285kJ}{1mol~H_2}\*\frac{1kWh}{3600kJ}\approx214kWh$$
+$$5.46kg~H_2\cdot\frac{1000g}{1kg}\cdot\frac{1mol~H_2}{2.016g}\cdot\frac{285kJ}{1mol~H_2}\cdot\frac{1kWh}{3600kJ}\approx214kWh$$
 
 A 2020 F1 car holds 105kg of premium gasoline, or 1,321kWh:
 
-$$105kg~gasoline\*\frac{1L}{0.75kg}\*\frac{9.5kWh}{1L}\approx1,321kWh$$
+$$105kg~gasoline\cdot\frac{1L}{0.75kg}\cdot\frac{9.5kWh}{1L}\approx1,321kWh$$
 
 {{< figure src="formulaecar.jpg" caption="2nd generation Formula E car [5]" >}}
 
