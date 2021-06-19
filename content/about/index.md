@@ -6,8 +6,7 @@ title: "About Me"
 * I'm a huge fan and resident of Florida's Space Coast
 * I used to [fly airplanes](/pages/flying/) (and will gladly accept more flight hours!)
 * I've worked as a CNC machinist at several companies and as a hobby
-* My favorite element is [Titanium](https://commons.wikimedia.org/wiki/File:Titanium_products.jpg)
-    * [Krypton](https://commons.wikimedia.org/wiki/File:Ion_spectral_line_radiation_from_a_krypton_arc_lamp.JPG) was my favorite element, but it's mostly useless and titanium is fun to work with
+* Krypton and Titanium are my favorite elements
 * Mercedes is my favorite Formula 1 team and car company
     * I currently drive a [CLK](clk.jpg)
     * Lewis Hamilton, Yuki Tsunoda, and George Russell are my favorite drivers
