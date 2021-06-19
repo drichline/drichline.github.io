@@ -9,15 +9,15 @@ I was curious what Formula E would be like with a fuel cell instead of batteries
 
 ## Energy storage of various vehicles
 
-A 2nd generation Formula E car has a 54kWh battery. (I prefer kWh over MJ #sorrynotsorry)
+A 2nd generation Formula E car has a 54 kWh battery. (I prefer kWh over MJ #sorrynotsorry)
 
-A street-legal Honda Clarity FCEV holds 5.46kg of compressed hydrogen gas, or 214kWh:
+A street-legal Honda Clarity FCEV holds 5.46 kg of compressed hydrogen gas, or 214 kWh:
 
-$$5.46kg~H_2\cdot\frac{1000g}{1kg}\cdot\frac{1mol~H_2}{2.016g}\cdot\frac{285kJ}{1mol~H_2}\cdot\frac{1kWh}{3600kJ}\approx214kWh$$
+$$5.46~\text{kg}~\text{H}_2\cdot\frac{1000~\text{g}}{1~\text{kg}}\cdot\frac{1~\text{mol}~\text{H}_2}{2.016~\text{g}}\cdot\frac{285~\text{kJ}}{1~\text{mol}~\text{H}_2}\cdot\frac{1~\text{kWh}}{3600~\text{kJ}}\approx214~\text{kWh}$$
 
-A 2020 F1 car holds 105kg of premium gasoline, or 1,321kWh:
+A 2020 F1 car holds 105 kg of premium gasoline, or 1 321 kWh:
 
-$$105kg~gasoline\cdot\frac{1L}{0.75kg}\cdot\frac{9.5kWh}{1L}\approx1,321kWh$$
+$$105~\text{kg}~\text{gasoline}\cdot\frac{1~\text{L}}{0.75~\text{kg}}\cdot\frac{9.5~\text{kWh}}{1~\text{L}}\approx1~321~\text{kWh}$$
 
 {{< figure src="formulaecar.jpg" caption="2nd generation Formula E car [5]" >}}
 
@@ -25,11 +25,11 @@ $$105kg~gasoline\cdot\frac{1L}{0.75kg}\cdot\frac{9.5kWh}{1L}\approx1,321kWh$$
 
 Fuel cells are only 60% efficient according to the US Dept. of Energy [1], but that's still ~2.5x the usable amount of energy as a current Formula E car (ignoring the real battery's internal resistance, so the actual number is even better than 2.5x).
 
-The Clarity's fuel cell outputs 100kW continuous, and only weighs 52kg. [2] It uses a 1.7kWh buffer battery to feed the motor, which is similar to the 1kWh supercapacitor F1 cars use for their MGU-K boost motor. Formula E cars use their 54kWh battery for a 45 minute race, so the average power is 72kW:
+The Clarity's fuel cell outputs 100 kW continuous, and only weighs 52 kg. [2] It uses a 1.7 kWh buffer battery to feed the motor, which is similar to the 1 kWh accumulator F1 cars use for their MGU-K boost motor. Formula E cars use their 54 kWh battery for a 45 minute race, so the average power is 72 kW:
 
-$$\bar{P}=\frac{54kWh}{0.75h}=72kW$$
+$$\bar{P}=\frac{54~\text{kWh}}{0.75~\text{h}}=72~\text{kW}$$
 
-The Clarity fuel cell's average power output should be sufficient for a race, but the Formula E car would probably need a larger supercapacitor to handle the 250kW bursts. Luckily, the 52kg fuel cell would be replacing a 250kg battery, so there should be plenty of room for a capacitor energy store. 
+The Clarity fuel cell's average power output should be sufficient for a race, but the Formula E car would probably need a larger supercapacitor to handle the 250 kW bursts. Luckily, the 52 kg fuel cell would be replacing a 250 kg battery, so there should be plenty of room for a capacitor energy store. 
 
 ## Safety
 

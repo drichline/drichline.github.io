@@ -214,6 +214,8 @@ main {
 .content .katex {
     overflow-x: auto;
     overflow-y: hidden;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .content p, .content li, .content dl, .content dt {

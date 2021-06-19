@@ -72,10 +72,6 @@ Approximate pi: 3.14159
 Circumference of the Universe: 2.8e+27 m
 {{< / highlight >}}
 
-## Interactive Demonstration
-
-I also implemented the formulas from this page as an [interactive demonstration in Desmos](https://www.desmos.com/calculator/ynazof9la5). The precision of the approximation of π will increase as n increases. 
-
 ---
 
 [1] "File:Riemann sum (leftbox).gif" by 09glasgow09 is licensed with CC BY-SA 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/3.0
