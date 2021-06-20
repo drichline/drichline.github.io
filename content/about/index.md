@@ -8,8 +8,8 @@ title: "About Me"
 * I've worked as a CNC machinist at several companies and as a hobby
 * Krypton and Titanium are my favorite elements
 * Mercedes is my favorite Formula 1 team and car company
-    * I currently drive a [CLK](clk.jpg)
     * Lewis Hamilton, Yuki Tsunoda, and George Russell are my favorite drivers
+    * I used to drive a [CLK](clk.jpg)
 * I'm an engineering student at Florida Tech
 * I 💜 the metric system
 
