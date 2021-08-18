@@ -12,7 +12,7 @@
     <ul>
     {{ range .Pages }}
         <li>
-            <span style="margin-right: 1rem;">({{ .Date.Format "Jan 2006" }})</span><a href="{{ .Permalink }}">{{ .Title }}</a>
+            <span style="margin-right: 1rem;">({{ .Date.Format "Jan 2006" }})</span><a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </li>
     {{ end }}
     </ul>
