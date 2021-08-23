@@ -1,7 +1,7 @@
 ---
 title: "Books I've Enjoyed"
 ---
-In roughly chronological order (most recent to oldest), these are some books I've read and particularly enjoyed.
+In roughly chronological order (most recent to oldest), these are some books I've read and particularly enjoyed (or just don't want to forget).
 
 ---
 Artemis
@@ -9,6 +9,9 @@ Artemis
 
 The Martian
 : Andy Weir
+
+Build Your Own Sports Car for as Little as £250 - and Race It!
+: Ron Champion
 
 The Consumer's Electric Car (1978)
 : Ernest H. Wakefield
@@ -34,5 +37,11 @@ George's Secret Key to the Universe
 Airborn, Skybreaker, Starclimber (Matt Cruise Trilogy)
 : Kenneth Oppel
 
+Welding for Dummies
+: Steven Robert Farnsworth
+
 The Hunger Games Trilogy
 : Suzanne Collins
+
+The Glitch in Sleep
+: John Hulme
