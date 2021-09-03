@@ -1,13 +1,9 @@
 ---
 title: "Pages"
+type: "list"
 ---
 
 <style>
-    ul {
-        list-style: none;
-        padding: 0;
-    }
-
     .search {
         padding: 0;
         margin: 0;
@@ -35,4 +31,12 @@ title: "Pages"
 
 Here's a list of everything I've published on this website. 
 <!-- "Pinned" pages -->
-<ul><li><span style="margin-right: 1rem;">(Undated)</span><a href="/booklist">Books I've Enjoyed</a></li></ul>
+### Special pages
+<ul>
+    <li><span style="margin-right: 1rem;"></span><a href="/lists/">Metalist: the list of lists!</a></li>
+    <li><span style="margin-right: 1rem;"></span><a href="/vici-kid/">Superstitious, eh?</a></li>
+</ul>
+
+---
+
+### Pages by date

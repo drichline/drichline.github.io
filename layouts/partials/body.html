@@ -8,7 +8,13 @@
         {{.TableOfContents}}
     {{ end }}
     {{ .Content }}
-    {{ if eq .Title "Pages" }}
+    {{ if eq .Type "list" }}
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
     <ul>
     {{ range .Pages }}
         <li>
