@@ -6,6 +6,9 @@ lastmod: "2021-08-23"
 In roughly chronological order (most recent to oldest), these are some books I've read and particularly enjoyed (or just don't want to forget).
 
 ---
+Flatland
+: Edwin Abbott Abbott
+
 Artemis
 : Andy Weir
 
