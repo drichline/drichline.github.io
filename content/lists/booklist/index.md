@@ -1,11 +1,14 @@
 ---
 title: "Books I've Enjoyed"
 aliases: "/booklist/"
-lastmod: "2021-09-05"
+lastmod: "2021-09-10"
 ---
 In roughly chronological order (most recent to oldest), these are some books I've read and particularly enjoyed (or just don't want to forget).
 
 ---
+Jurassic Park
+: Michael Crichton
+
 Flatland
 : Edwin Abbott Abbott
 
