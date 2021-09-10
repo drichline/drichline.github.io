@@ -1,6 +1,7 @@
 ---
 title: "Approximating π and the Circumference of the Universe on a Business Card"
 date: "2021-03-21"
+lastmod: "2021-09-10"
 toc: "true"
 ---
 
@@ -62,7 +63,7 @@ for i in range(1, n):
 print("Approximate pi:", '{:0.6}'.format(4*s))
 d = 8.8E26 # Observable universe, meters
 print("Circumference of the Universe:", '{:0.1e}'.format(d*4*s,1), "m")
-## Accurate to (8.4E-5)%!
+## Accurate to (8.4E-5)%, or 840 parts per billion!
 {{< / highlight >}}
 
 Output: 
