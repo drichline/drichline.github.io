@@ -184,6 +184,10 @@ main {
 
 .content p {
     line-height: 2.5rem;
+    margin-bottom: 2rem!important;
+}
+
+.content dd {
     margin-bottom: 2rem;
 }
 
