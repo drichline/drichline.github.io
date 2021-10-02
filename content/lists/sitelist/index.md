@@ -28,6 +28,9 @@ lastmod: "2021-09-25"
 [Cheat.sh](http://cheat.sh/)
 : Terse alternative to Linux manpages
 
+[Hacker News](https://news.ycombinator.com/)
+: Interesting tech news, but very CS heavy
+
 [The Best Motherfucking Website](https://thebestmotherfuckingwebsite.co/)
 : Heavily inspired the design of this website
 
