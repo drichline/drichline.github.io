@@ -1,17 +1,18 @@
 ---
 title: "Tesla's W·h/km is a brilliant unit"
 date: "2021-09-12"
+lastmod: "2021-10-06"
 ---
 
 *Disclosure: I'm not a huge fan of Tesla, but I give credit where credit is due.*
 
 {{<youtube oLQmwOX6Xds>}}
 
-Engineering Explained on YouTube enlightened me as to why fuel consumption is a better metric than fuel efficiency, especially for gas-powered cars. TL;DW: fuel consumption is usually more relevant, and it scales nonlinearly with fuel efficiency. 
+Engineering Explained on YouTube enlightened me as to why fuel consumption is a better metric than fuel efficiency, especially for gas-powered cars. TL;DW: fuel consumption is usually more relevant, and it does not have an inverse relationship like fuel efficiency. 
 
 {{<figure src="desmos-graph.png">}}
 
-As shown by this graph of fuel efficiency (black) and fuel consumption (green), doubling the efficiency of a car DOES NOT halve the amount of gas it burns! For an electric car that's constrained by the amount of energy it can carry, I believe that energy consumption is more important to know than efficiency. Tesla is clearly on my side; they use W·h/km while some car companies display km/kW·h, or, even worse, MPGe (miles per gallon equivalent).
+As shown by this graph of fuel efficiency (green) and fuel consumption (black), increasing efficiency by a certain amount does not always change fuel consumption by the same amount! For an electric car that's constrained by the amount of energy it can carry, I believe that energy consumption is more important to know than efficiency. Tesla is clearly on my side; they use W·h/km while some car companies display km/kW·h, or, even worse, MPGe (miles per gallon equivalent).
 
 ---
 
