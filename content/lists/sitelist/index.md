@@ -10,6 +10,9 @@ lastmod: "2021-09-25"
 [Woodgears.ca](https://woodgears.ca/)
 : Matthias Wandel's woodworking site
 
+[Parsiya.net](https://parsiya.net/)
+: Inspired this website circa 2016
+
 [The APRS Electric Vehicle Pages](http://www.aprs.org/APRS-SPHEV.html)
 : An interesting solar-powered Prius, among other related projects
 
