@@ -17,7 +17,7 @@
 </header>
 <nav class=topnav>
 <div id=navbar>
-<label for=nav-toggle id=nav-button><img src=/images/nav-toggle.svg></label>
+<label for=nav-toggle id=nav-button><img alt="Toggle navigation" src=/images/nav-toggle.svg></label>
 <input id=nav-toggle type=checkbox>
 <a class=logo href=/>Home</a>
 <a href=/pages>Pages</a>
@@ -50,12 +50,12 @@
 <h2 id=area-of-a-circle-and-π>Area of a circle and π</h2>
 <p>The area of a circle is π times the radius squared: \(A=\pi r^2\). If the radius of the circle is \(r=1\), its area is π. If I want to solve for the value of π, all I need to do is find the area of the \(r=1\) circle using another method, and the answer is π! (\(A=\pi\))</p>
 <p>A circle is defined by the equation \(x^2+y^2=r^2\), and half the circle is \(y=\sqrt{r^2-x^2}\).</p>
-<figure><img src=halfcircle.png alt="Graph of \(y=\sqrt{r^2-x^2},r=1\)"><figcaption>
+<figure><img src=halfcircle.png alt="Graph of half a circle"><figcaption>
 <p>Graph of \(y=\sqrt{r^2-x^2},r=1\)</p>
 </figcaption>
 </figure>
 <p>Now that half of the circle is represented as a function of x, it&rsquo;s possible to find the area <em>underneath</em> that curve by taking the definite integral of the function. The integral of the function between 0 and 1 is really the area of 1/4 the circle (represented by the purple shaded region in the graph below).</p>
-<figure><img src=fullcircle.png alt="The circle is \(x^2+y^2=r^2,r=1\). The shaded region represents \(\int^1_0{\sqrt{1-x^2}dx}\), which is \(\frac{\pi}{4}\)"><figcaption>
+<figure><img src=fullcircle.png alt="Graph of a full circle"><figcaption>
 <p>The circle is \(x^2+y^2=r^2,r=1\). The shaded region represents \(\int^1_0{\sqrt{1-x^2}dx}\), which is \(\frac{\pi}{4}\)</p>
 </figcaption>
 </figure>
@@ -65,7 +65,7 @@
 <p>The circumference of the Observable Universe is a great novelty problem to demonstrate the precision of π. According to <a href=https://www.jpl.nasa.gov/edu/news/2016/3/16/how-many-decimals-of-pi-do-we-really-need/>NASA at JPL</a>, 40 digits of π is precise enough to calculate it within the radius of a single hydrogen atom. JPL themselves only use 15 digits.</p>
 <h2 id=putting-it-on-a-business-card>Putting it on a business card</h2>
 <p>As of writing this page, my very limited programming experience is in C++. Python looks like an awesome language, and its beautiful syntax is much more conducive to printing on a business card. 🙂 Using one of Python&rsquo;s many libraries to take the integral would be infinitely easier and more efficient, but using the Fundamental Theorem of Calculus (a Riemann sum) to approximate π is way cooler. To be clear, this is an extremely inefficient (but badass) way to calculate pi; I ran it for 10 billion iterations and couldn&rsquo;t even get close to 15 digits.</p>
-<figure><img src=Riemann_sum_%28leftbox%29.gif alt="A Riemann sum looks like this, with the rectangles becoming infinitely narrow. An integral is just the area of all the rectangles added together [1]"><figcaption>
+<figure><img src=Riemann_sum_%28leftbox%29.gif alt="Animated Riemann sum graph"><figcaption>
 <p>A Riemann sum looks like this, with the rectangles becoming infinitely narrow. An integral is just the area of all the rectangles added together [1]</p>
 </figcaption>
 </figure>
