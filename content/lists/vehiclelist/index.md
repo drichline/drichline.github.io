@@ -13,7 +13,7 @@ In roughly chronological order (oldest to most recent), these are the vehicles I
     * My first motorcycle
     * Woefully underpowered: 13 kW (17 hp) at the engine!
 
-{{< figure src="/pages/nighthawkessay/beforesale.jpg" caption="Not too shabby for a 29 year old bike!" >}}
+{{< figure alt="Honda motorcycle" src="/pages/nighthawkessay/beforesale.jpg" caption="Not too shabby for a 29 year old bike!" >}}
 
 3. 2005 Harley-Davidson Sportster 883
     * Upgrade from the Honda that's more highway-capable
@@ -25,7 +25,7 @@ In roughly chronological order (oldest to most recent), these are the vehicles I
     * Very easy, but expensive, to work on
     * Was stolen in Florida in 2003, then recovered and sold as a wedding gift in Pennsylvania, then sat in a garage its whole life before being bought and moved back to Florida
 
-{{< figure src="/about/clk.jpg" >}}
+{{< figure alt="Mercedes CLK and SLK" src="/about/clk.jpg" >}}
 
 5. 2019 Mitsubishi Mirage G4
     * Replaced the CLK due to expensive suspension issues (needed several struts and control arms)

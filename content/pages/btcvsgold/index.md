@@ -17,7 +17,7 @@ $$\frac{1\cdot10^6~₿}{21\cdot10^6~₿}\cdot100\\%\approx4.76\\%$$
 
 If Bitcoin were to seriously displace gold as a store of value, one unknown group or individual holding more value than the *world superpower*'s reserves is a huge liability.
 
-{{< figure src="eiffeltower.jpg" caption="Comparison between Eiffel Tower, Global gold supply, and US gold reserves [8]" >}}
+{{< figure alt="Cubes of gold underneath Eiffel Tower" src="eiffeltower.jpg" caption="Comparison between Eiffel Tower, Global gold supply, and US gold reserves [8]" >}}
 
 ## Problem 2: Manipulation of the Supply
 

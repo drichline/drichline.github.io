@@ -4,7 +4,7 @@ date: "2020-12-01"
 ---
 *This essay was written for Introduction to Aerospace Engineering*
 
-{{< figure src="suits.png" caption="From left: SpaceX, Boeing, and NASA IVA suits" >}}
+{{< figure alt="Three different spacesuits" src="suits.png" caption="From left: SpaceX, Boeing, and NASA IVA suits" >}}
 
 Multiple space agencies have allowed astronauts to launch with open pressure suits—the equivalent of driving without a seatbelt—with fatal consequences. Soyuz 11 is the famous example of depressurization: cosmonauts did not wear pressure suits at the time, and the crew was killed by a loss of pressure during reentry [2]. 15 years later, Challenger astronauts launched with unpressurized suits and a 2.5 minute air reserve. Pressurized suits would not have necessarily saved the crew, but there may have been a loss of pressure; three air packs were manually turned on after the breakup [1]. Relying on a spacecraft to remain pressurized is a pointless risk, especially after it caused a tragedy. 
 

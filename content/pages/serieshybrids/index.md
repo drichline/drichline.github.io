@@ -38,7 +38,7 @@ A series hybrid has some downsides compared to parallel hybrids and BEVs. While 
 
 A series hybrid is undoubtedly complex compared to a BEV, but it has significantly fewer points of failure than a parallel hybrid. Typical parallel hybrids are as complex as a normal ICE car, with an additional BEV powertrain. In comparison, the powertrain of a series hybrid is identical to that of a BEV, with an engine added to act as a range extender. Even if the engine completely failed, the car is still fully functional as a BEV. The combustion engine and battery are probably the weak link of the system; Elon Musk claims that his BEV powertrain can last 1.6 million km. Anecdotally, BMW motorcycle engines like the one used in the i3 Rex can last several hundred thousand kilometers before a rebuild (and likely much longer in a car that gently extracts 30kW of power from it on occasion). A series hybrid is as simple and reliable as a BEV with a high-end generator, compared to parallel hybrids that are even more complex than an ICE car with the same reliability issues. 
 
-{{< figure src="i3engine.jpg" caption="BMW i3 engine and drivetrain [1]" >}}
+{{< figure alt="Disassembled car showing motor" src="i3engine.jpg" caption="BMW i3 engine and drivetrain [1]" >}}
 
 ## BEV versus Hybrid Usage Models
 
@@ -52,7 +52,7 @@ Combustion engines are not ideal from an environmental standpoint, but there are
 
 Combustion engines are made out of simple metals and are already easier to recycle than lithium batteries. Again: why should every EV owner buy a large number of rare earth metal-containing batteries for long drives when they could just burn a small amount of clean fuel on those rare occasions?
 
-{{< figure src="i3 battery.jpg" caption="42.2kWh BMW i3 underfloor battery [2]" >}}
+{{< figure alt="Battery from electric car" src="i3 battery.jpg" caption="42.2kWh BMW i3 underfloor battery [2]" >}}
 
 ## Fuel Cells
 

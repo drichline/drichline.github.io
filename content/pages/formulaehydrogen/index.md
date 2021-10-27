@@ -19,7 +19,7 @@ A 2020 F1 car holds 105 kg of premium gasoline, or 1 321 kW h:
 
 $$105~\text{kg}~\text{gasoline}\cdot\frac{1~\text{L}}{0.75~\text{kg}}\cdot\frac{9.5~\text{kW h}}{1~\text{L}}\approx1~321~\text{kW h}$$
 
-{{< figure src="formulaecar.jpg" caption="2nd generation Formula E car [5]" >}}
+{{< figure alt="Formula E racecar" src="formulaecar.jpg" caption="2nd generation Formula E car [5]" >}}
 
 ## Efficiency and power output
 
@@ -33,7 +33,7 @@ The Clarity fuel cell's average power output should be sufficient for a race, bu
 
 ## Safety
 
-{{< figure src="Honda_FCX_platform_rear_Honda_Collection_Hall.jpg" caption="Honda Clarity hydrogen tanks inside ladder frame [5]. Not much protection compared to a racecar!" >}}
+{{< figure alt="Tanks in vehicle frame" src="Honda_FCX_platform_rear_Honda_Collection_Hall.jpg" caption="Honda Clarity hydrogen tanks inside ladder frame [5]. Not much protection compared to a racecar!" >}}
 
 Safety is a huge consideration with hydrogen fuel. F1 cars put their fuel tanks inside the monocoque ("safety cell"), behind the driver's seat. The system isn't foolproof; when Romain Grosjean crashed in 2020, his fuel system burst and there was a huge fire. Hydrogen could be a potential safety upgrade: Toyota shot their hydrogen tank with a .50 caliber round and it didn't explode. [4] A fuel cell electric vehicle doesn't have a hot exhaust to serve as an ignition source, and there isn't 105kg of gasoline ready to coat the driver in case of a tank failure; hydrogen is the lightest gas/element in the universe. One safety hazard is water production: a Honda Clarity outputs roughly 50L of water per tank of hydrogen, which would need to be dumped somewhere other than the racetrack.
 

@@ -25,11 +25,11 @@ The area of a circle is π times the radius squared: \\\(A=\pi r^2\\\). If the r
 
 A circle is defined by the equation \\\(x^2+y^2=r^2\\\), and half the circle is \\\(y=\sqrt{r^2-x^2}\\\).
 
-{{< figure src="halfcircle.png" caption="Graph of \\\(y=\sqrt{r^2-x^2},r=1\\\)" >}}
+{{< figure alt="Graph of half a circle" src="halfcircle.png" caption="Graph of \\\(y=\sqrt{r^2-x^2},r=1\\\)" >}}
 
 Now that half of the circle is represented as a function of x, it's possible to find the area *underneath* that curve by taking the definite integral of the function. The integral of the function between 0 and 1 is really the area of 1/4 the circle (represented by the purple shaded region in the graph below). 
 
-{{< figure src="fullcircle.png" caption="The circle is \\\(x^2+y^2=r^2,r=1\\\). The shaded region represents \\\(\int^1_0{\sqrt{1-x^2}dx}\\\), which is \\\(\frac{\pi}{4}\\\)" >}}
+{{< figure alt="Graph of a full circle" src="fullcircle.png" caption="The circle is \\\(x^2+y^2=r^2,r=1\\\). The shaded region represents \\\(\int^1_0{\sqrt{1-x^2}dx}\\\), which is \\\(\frac{\pi}{4}\\\)" >}}
 
 Therefore, taking the integral of 1/4 the circle, then multiplying by 4 is the area of the circle, which is equal to π!
 
@@ -43,7 +43,7 @@ The circumference of the Observable Universe is a great novelty problem to demon
 
 As of writing this page, my very limited programming experience is in C++. Python looks like an awesome language, and its beautiful syntax is much more conducive to printing on a business card. 🙂 Using one of Python's many libraries to take the integral would be infinitely easier and more efficient, but using the Fundamental Theorem of Calculus (a Riemann sum) to approximate π is way cooler. To be clear, this is an extremely inefficient (but badass) way to calculate pi; I ran it for 10 billion iterations and couldn't even get close to 15 digits. 
 
-{{< figure src="Riemann_sum_(leftbox).gif" caption="A Riemann sum looks like this, with the rectangles becoming infinitely narrow. An integral is just the area of all the rectangles added together [1]" >}}
+{{< figure alt="Animated Riemann sum graph" src="Riemann_sum_(leftbox).gif" caption="A Riemann sum looks like this, with the rectangles becoming infinitely narrow. An integral is just the area of all the rectangles added together [1]" >}}
 
 
 In my case, the integral can be represented as this Riemann sum: 

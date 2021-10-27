@@ -3,7 +3,7 @@ title: "Occam's Razor and Future-Proof Audio Playback"
 date: "2021-10-15"
 ---
 
-{{< figure  src="formats.png" caption="One format to rule them all... [1]">}}
+{{< figure alt="CD, USB drive, and iPhone" src="formats.png" caption="One format to rule them all... [1]">}}
 
 ## Why Audio Storage Matters
 
@@ -15,7 +15,7 @@ Even though it's early '00s technology, I was amazed the first time I played aud
 
 ## Another Example: No Aux in the Mercedes
 
-{{< figure src="clkradio.jpg" caption="Dashboard of a slightly newer Mercedes CLK [2]" >}}
+{{< figure alt="Mercedes dashboard" src="clkradio.jpg" caption="Dashboard of a slightly newer Mercedes CLK [2]" >}}
 
 As well-designed as many parts of the car were, my 2001 Mercedes's stereo was peak anti-Occam's Razor. It was at least a $40K car new and, naturally, the stereo had all the bells and whistles: a 6 CD changer in the trunk, built-in carphone, and a motorized door to cover the tape deck. The problem is that there was no way to stream audio from a phone without an FM transmitter or burning my own CDs. Of course, using an FM transmitter meant that the *illuminated ashtray* needed to be on for 12 V power. The tape deck couldn't fit an adapter because of its fancy door, and Mercedes didn't include a standard 3.5 mm jack. 
 

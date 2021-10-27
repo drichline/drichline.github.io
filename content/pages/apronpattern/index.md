@@ -10,12 +10,12 @@ Deluth makes the best apron I've ever worn, so I decided to copy my favorite fea
 
 ### Download the project files [here](Apron.zip)
 
-{{< figure src="apron.jpg" caption="Deluth Trading Co apron mine is ~~copied from~~ based on" >}}
+{{< figure alt="Deluth apron" src="apron.jpg" caption="Deluth Trading Co apron mine is ~~copied from~~ based on" >}}
 
-{{< figure src="Apron_Pattern.png" caption="The original vector file is with the project files. Some measurements are written on the paper copy below" >}}
+{{< figure alt="Apron pattern" src="Apron_Pattern.png" caption="The original vector file is with the project files. Some measurements are written on the paper copy below" >}}
 
 The dashed line is for trim around the edges. If you sew one of these aprons, make sure to cut the bottom pocket extra-long so it flops open and you can stick tools in it!
 
-{{< figure src="mockup.jpg" caption="Paper mockup of the pattern before I digitized it. I *hate* cutting fabric, so it was designed to be laser cut with the stitch lines burnt into the fabric!" >}}
+{{< figure alt="Draft of pattern" src="mockup.jpg" caption="Paper mockup of the pattern before I digitized it. I *hate* cutting fabric, so it was designed to be laser cut with the stitch lines burnt into the fabric!" >}}
 
-{{< figure src="pocket.jpg" caption="Closeup of the top pockets" >}}
+{{< figure alt="Apron pocket pattern" src="pocket.jpg" caption="Closeup of the top pockets" >}}
