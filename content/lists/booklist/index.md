@@ -6,6 +6,9 @@ lastmod: "2021-09-10"
 In roughly chronological order (most recent to oldest), these are some books I've read and particularly enjoyed (or just don't want to forget).
 
 ---
+Battle Royale
+: Koushun Takami
+
 Jurassic Park
 : Michael Crichton
 
@@ -32,6 +35,9 @@ Nineteen Eighty-Four
 
 Anthem
 : Ayn Rand
+
+The Five People You Meet in Heaven
+: Mitch Albom
 
 Fahrenheit 451
 : Ray Bradbury
