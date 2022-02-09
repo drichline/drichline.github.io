@@ -19,6 +19,9 @@ lastmod: "2021-09-25"
 [Desmos](https://www.desmos.com/)
 : The calculator I use most often
 
+[Think Metric!](https://thinkmetric.uk/)
+: Everyday guide to SI and metric units, by the UK Metric Association
+
 [US Metric Association](https://usma.org/)
 : Great organization, and a useful metrological reference
 
