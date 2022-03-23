@@ -6,7 +6,7 @@ title: "About Me"
 * I'm a huge fan and resident of Florida's Space Coast
 * I used to [fly airplanes](/pages/flying/) (and will gladly accept more flight hours!)
 * I've worked as a CNC machinist at several companies and as a hobby
-* Krypton and Titanium are my favorite elements
+* Xenon and Titanium are my favorite elements
 * My favorite song is [Life on Mars?](/files/lifeonmars.mp3)
 * Mercedes is my favorite Formula 1 team and car company
     * Lewis Hamilton, Yuki Tsunoda, and George Russell are my favorite drivers
