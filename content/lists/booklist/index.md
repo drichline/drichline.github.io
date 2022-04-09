@@ -6,6 +6,9 @@ lastmod: "2022-01-26"
 In roughly chronological order (most recent to oldest), these are some books I've read and particularly enjoyed (or just don't want to forget).
 
 ---
+How To
+: Randall Munroe
+
 Battle Royale
 : Koushun Takami
 
