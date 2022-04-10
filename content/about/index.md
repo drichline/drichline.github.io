@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 ---
-<img alt="Illustration of Dakota" id="profile" style="max-width:25ch; display: block; margin: auto; border-radius: 50%;" src="/images/picrew_profile.png">
+<img alt="Portrait of Dakota" id="profile" style="max-width:25ch; display: block; margin: auto; border-radius: 50%;" src="/images/profile.jpeg">
 
 * I'm a huge fan and resident of Florida's Space Coast
 * I used to [fly airplanes](/pages/flying/) (and will gladly accept more flight hours!)
