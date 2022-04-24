@@ -35,7 +35,6 @@ Here's a list of everything I've published on this website.
 <ul>
     <li><span style="margin-right: 1rem;"></span><a href="/lists/">Metalist: the list of lists!</a></li>
     <li><span style="margin-right: 1rem;"></span><a href="/vici-kid/">Superstitious, eh?</a></li>
-    <li><span style="margin-right: 1rem;"></span><a href="http://dakota3sjlgd5qt5nygektopktodk4krxw56xhkyzljhxuj3kroz5qqd.onion/">The richline.rocks Onion Service</a></li>
 </ul>
 
 ---
