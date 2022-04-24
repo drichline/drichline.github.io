@@ -35,5 +35,5 @@ extensions = [
 
   [[menu.links]]
     name = "Books I've Enjoyed"
-    url = "/booklist"
+    url = "/lists/booklist/"
     weight = "5"
