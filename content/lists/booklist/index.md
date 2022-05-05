@@ -1,11 +1,14 @@
 ---
 title: "Books I've Enjoyed"
 aliases: "/booklist/"
-lastmod: "2022-04-06"
+lastmod: "2022-05-05"
 ---
 In roughly chronological order (most recent to oldest), these are some books I've read and particularly enjoyed (or just don't want to forget).
 
 ---
+What If?
+: Randall Munroe
+
 How To
 : Randall Munroe
 
