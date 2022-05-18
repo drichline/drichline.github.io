@@ -1,8 +1,11 @@
 ---
 title: "My Favorite Websites"
 date: "2021-09-25"
-lastmod: "2021-09-25"
+lastmod: "2022-05-18"
 ---
+
+[What is Nuclear?](https://whatisnuclear.com/)
+: Amazing nuclear energy education resource
 
 [Plug Socket Museum](https://www.plugsocketmuseum.nl/NorthAm1.html)
 : Incredibly detailed information on worldwide plug standards
