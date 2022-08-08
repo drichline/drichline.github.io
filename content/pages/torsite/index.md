@@ -1,5 +1,5 @@
 ---
-title: "How I hosted this Website on Tor"
+title: "How I Hosted this Website on Tor"
 date: "2022-08-08"
 lastmod: "2022-08-08"
 ---
