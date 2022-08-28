@@ -7,7 +7,7 @@ title: "About Me"
 * I used to [fly airplanes](/pages/flying/) (and will gladly accept more flight hours!)
 * I've worked as a CNC machinist at several companies and as a hobby
 * Xenon and Uranium are my favorite elements
-* My favorite song is [Life on Mars?](/files/lifeonmars.mp3)
+* My favorite song is [Life on Mars?](/files/lifeonmars.webm)
 * Mercedes is my favorite Formula 1 team and car company
     * Lewis Hamilton, Yuki Tsunoda, and George Russell are my favorite drivers
     * I used to drive a [CLK](clk.jpg)
