@@ -25,7 +25,7 @@ type: "list"
 <form action="https://www.google.com/search" method="get" target="_blank" rel="noopener noreferrer">
     <fieldset class="search" role="search">
         <input class="searchbox" type="text" name="q" results="0" placeholder="Search">
-        <input type="hidden" name="q" value="site:https://richline.rocks/">
+        <input type="hidden" name="q" value="site:https://perilune.space/">
     </fieldset>
 </form>
 

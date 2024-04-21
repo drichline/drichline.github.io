@@ -1,6 +1,6 @@
-baseURL = "https://richline.rocks/"
+baseURL = "https://perilune.space/"
 languageCode = "en-us"
-title = "Dakota Richline"
+title = "perilune.space"
 
 disableKinds=["RSS"]
 
@@ -25,12 +25,12 @@ extensions = [
 
   [[menu.links]]
     name = "LinkedIn"
-    url = "https://www.linkedin.com/in/derekrichline/"
+    url = "https://www.linkedin.com/in/drichline/"
     weight = "3"
 
   [[menu.links]]
     name = "Instagram"
-    url = "https://www.instagram.com/richline.rocks/"
+    url = "https://www.instagram.com/dakota.richline/"
     weight = "4"
 
   [[menu.links]]

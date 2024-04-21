@@ -3,16 +3,17 @@ title: "About Me"
 ---
 <img alt="Portrait of Dakota" id="profile" style="max-width:25ch; display: block; margin: auto; border-radius: 50%;" src="/images/profile.jpeg">
 
-* I'm a huge fan and resident of Florida's Space Coast
-* I used to [fly airplanes](/pages/flying/) (and will gladly accept more flight hours!)
-* I've worked as a CNC machinist at several companies and as a hobby
-* Xenon and Uranium are my favorite elements
+* I 💜 dimensional analysis and the SI
+* I'm a senior in aerospace engineering on Florida's Space Coast
+* I landed a [sport plane](/pages/flying/) 78 times (and will gladly accept more flight hours!)
+* I used to machine parts for artificial shoulders at Exactech
+* Xenon and titanium are my favorite elements
 * My favorite song is [Life on Mars?](/files/lifeonmars.webm)
-* Mercedes is my favorite Formula 1 team and car company
+* Mercedes is my favorite Formula 1 team
     * Lewis Hamilton, Yuki Tsunoda, and George Russell are my favorite drivers
     * I used to drive a [CLK](clk.jpg)
 * I'm an engineering student at Florida Tech
-* I 💜 the metric system
+
 
 ---
 
