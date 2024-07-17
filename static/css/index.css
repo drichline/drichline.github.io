@@ -346,7 +346,7 @@ footer p {
 
 @media only screen and (min-width : 481px) {
     html {
-        background-image: url(/images/Ubuntu-Mate-Cold-no-logo.png);
+        background-image: url(/images/Ubuntu-Mate-Cold-no-logo-compressed.avif);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
