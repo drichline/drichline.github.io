@@ -1,18 +1,17 @@
 ---
 title: "About Me"
 ---
-<img alt="Portrait of Dakota" id="profile" style="max-width:25ch; display: block; margin: auto; border-radius: 50%;" src="/images/profile.jpeg">
+<img alt="Portrait of Dakota" id="profile" style="max-width:25ch; display: block; margin: auto; border-radius: 50%;" src="/images/mullet.webp">
 
-* I 💜 dimensional analysis and the SI
 * I'm a senior in aerospace engineering on Florida's Space Coast
 * I landed a [sport plane](/pages/flying/) 78 times (and will gladly accept more flight hours!)
-* I used to machine parts for artificial shoulders at Exactech
+* I used to machine parts for artificial shoulders and surgical instruments at Exactech
+* I 💜 dimensional analysis and the SI
 * Xenon and titanium are my favorite elements
 * My favorite song is [Life on Mars?](/files/lifeonmars.webm)
 * Mercedes is my favorite Formula 1 team
     * Lewis Hamilton, Yuki Tsunoda, and George Russell are my favorite drivers
     * I used to drive a [CLK](clk.jpg)
-* I'm an engineering student at Florida Tech
 
 
 ---
