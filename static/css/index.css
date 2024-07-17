@@ -346,8 +346,7 @@ footer p {
 
 @media only screen and (min-width : 481px) {
     html {
-    /* Background image by Jakob Körber on Unsplash */
-        background-image: url(/images/vincent-guth-62V7ntlKgL8-unsplash-compressed.avif);
+        background-image: url(/images/Ubuntu-Mate-Cold-no-logo.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
