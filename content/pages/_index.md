@@ -33,7 +33,7 @@ Here's a list of everything I've published on this website.
 <!-- "Pinned" pages -->
 ### Special pages
 <ul>
-    <li><span style="margin-right: 1rem;"></span><a href="/lists/">Metalist: the list of lists!</a></li>
+    <li><span style="margin-right: 1rem;"></span><a href="/lists/">Lists</a></li>
     <li><span style="margin-right: 1rem;"></span><a href="/vici-kid/">Superstitious, eh?</a></li>
 </ul>
 
