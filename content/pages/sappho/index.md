@@ -1,5 +1,5 @@
 ---
-title: "SAPPHO: Spectroscopic Analysis of Phobos Plus HD Orbital Survey"
+title: "[PDF] SAPPHO: Spectroscopic Analysis of Phobos Plus HD Orbital Survey"
 date: "2024-02-21"
 ---
 
