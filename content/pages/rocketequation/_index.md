@@ -25,7 +25,7 @@ Solve for thrust; substitute equivalent velocity:
 
 $$\Sigma F = \dot m v_e + A_e (P_e-P_a);~v_{eq}=v_e+\frac{A_e(P_e-P_a)}{\dot m}$$
 
-Thrust equation:
+Thrust equation (\\\(v_e = v_{eq}\\\) at optimum expansion \\\(P_e=P_a\\\)):
 
 $$T=\dot m v_{eq}$$
 
@@ -51,7 +51,7 @@ $$v|^v_{v_0=0} = -v_{eq}\ln m_v|^{m_f}_{m_o}$$
 
 $$\Delta v = v_{eq}[\ln m_0 - \ln m_f]$$
 
-Final forms:
+Final forms (equivalent velocity and specific impulse):
 
 $$\Delta v = v_{eq}\ln\frac{m_0}{m_f}$$ 
 
