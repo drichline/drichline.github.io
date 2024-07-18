@@ -17,7 +17,7 @@ Steady state steady flow; no body forces:
 
 $$\int_{CS}\rho v\cdot v\cos 0 dA = \Sigma F-\int_{CS}P\cdot \vec{dA}$$
 
-Resolve integral and pressure terms:
+Resolve accumulation and pressure terms:
 
 $$\rho v_e^2 A_e = \Sigma F - (P_e-P_a)A_e;~\dot m=\rho v A$$
 
