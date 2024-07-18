@@ -1,14 +1,17 @@
 ---
 title: "SV Control: Desaturating Reaction Wheels in the Satellite Simulator"
-date: "2024-07-18"
-draft: true
+date: "2023-11-20"
 ---
 
-Background: my professor for Space Vehicle control (Dr. Eric Swenson) wrote an incredible satellite dynamics simulator in MATLAB. Assignments for the class provided a specific end condition of the vehicle, and we wrote code that controls the simulator. A big part of it was representing the rotation from initial to final attitude; I liked to use Euler axis/angle, DCMs, and dot/cross products depending on the situation. Below is my favorite problem out of all the assignments
+Background: my professor for Space Vehicle control (Dr. Eric Swenson) wrote an incredible satellite dynamics simulator with a PID controller in MATLAB. Assignments for the class provided a specific end condition of the vehicle, and we wrote code that controls the simulator. A big part of it was representing the rotation from initial to final attitude; I liked to use dot/cross products, Euler axis/angle, DCMs, and quaternions depending on the situation. Below is my favorite problem out of all the assignments
 
 ## Objective
 
-As shown below, the objective for this problem is to point the SV body axes at \\\(\langle 1,1,1 \rangle\frac{1}{\sqrt 3} \\\) in the inertial frame. There is a disturbance torque on the vehicle, which increases angular momentum until the reaction wheels saturate at 5000 RPM; the main challenge is to write code to desaturate the wheels by dumping angular momentum using external torques from the thrusters. 
+As shown below, the objective for this problem is to point the SV body axes at \\\(\langle 1,1,1 \rangle\frac{1}{\sqrt 3} \\\) in the inertial frame, and use the thrusters to dump angular momentum accumulated from a disturbance torque once the reaction wheels saturate at 3500 rpm.
+
+{{< figure alt="plot of reaction wheel speed vs time" src="rwspeed.png">}}
+
+{{< figure alt="plot of SV angular momentum vs time" src="angmomentum.png">}}
 
 {{< figure alt="initial attitude of satellite with parameters" src="Initial-attitude.png" caption="Initial attitude of space vehicle \\\(\langle 1,1,1 \rangle\_i \\\)" >}}
 
@@ -21,7 +24,6 @@ As shown below, the objective for this problem is to point the SV body axes at \
 Computes the final attitude by crossing the body axes into the target vector, converting to euler angle/axis, then a direction cosine matrix multiplied by an extra 3-rotation, then a quaternion, which ultimately becomes the transmuted quaternion matrix for simulator input. 
 
 {{< highlight matlab >}}
-
 %% FINAL COMMANDED ATTITUDE via a rotation matrix and quaternions
 target = [ 1 1 1 ]/sqrt(3);
 b3_i= [0 0 1];
@@ -34,22 +36,34 @@ phi = acos(dot(b3_i, target)/(norm(b3_i)*norm(target)));
 
 % Additional 3-rotation
 theta_1 = deg2rad(220);
-R_3_1 = [ cos(theta_1) -sin(theta_1)
-0
+R_3_1 = [ cos(theta_1)   sin(theta_1)     0  ; 
+         -sin(theta_1)   cos(theta_1)     0   ;
+              0               0           1];
 R_bi = R_3_1*R_target;
-sin(theta_1)
-cos(theta_1)
-0
-0 ;
-0
-;
-1];
 
-% Transmuted Quaternion Matrix
-M_tilde = [ q_commanded(4) -q_commanded(3) q_commanded(2) q_commanded(1)
-q_commanded(3) q_commanded(4) -q_commanded(1) q_commanded(2)
--q_commanded(2) q_commanded(1) q_commanded(4) q_commanded(3)
--q_commanded(1) -q_commanded(2) -q_commanded(3) q_commanded(4) ];
-M_tilde_inv = inv(M_tilde);
-
+% Final commanded attitude
+[~,~,q_commanded] = R2Q(R_bi);
+disp(sprintf('Commanded quaternion = [ %8.6f   %8.6f   %8.6f   %8.6f ]',q_commanded))
 {{< / highlight >}}
+
+The desaturation code runs once per cycle of the outer control loop. It checks whether the whether the wheels are saturated, then sets a global boolean to turn on/off the desaturation. It uses the equation \\\(\dot\psi=\frac \tau D\\\) to determine the wheel deceleration that produces an internal torque equal and opposite the external torque produced by the thrusters; where \\\(\dot\psi\\\) is angular accerlation, \\\(D\\\) is the wheel's mass moment of inertia, and \\\(\tau\\\) is the external torque. 
+
+{{< highlight matlab >}}
+for ctr = 1 : 3 % Enforce RW torque and angular velocity constraints
+if abs(psi(ctr)) > 3500*2*pi/60 && desaturate(ctr) == false
+    desaturate(ctr) = true;
+end
+
+if abs(psi(ctr)) < 1000*2*pi/60 && desaturate(ctr) == true
+    desaturate(ctr) = false;
+end
+    
+if desaturate(ctr) == true
+        %disp(strcat('RW #',num2str(ctr), ', above 3500 rpm at time=',num2str(start_time)) );
+        thruster_torque(ctr) = -2*nominal_thrust*moment_arm(ctr);
+        thrusters_fired_ctr = thrusters_fired_ctr + 2*sum(abs(thruster_torque)); % count # times the thrusters are fired
+        psi_dot(ctr) = sign(psi(ctr))*thruster_torque(ctr)/D_rotor;
+    M_b_ext = M_b_ext + thruster_torque; % add tot total external torque on SV
+end
+end
+{{< / highlight>}}
