@@ -3,9 +3,20 @@ title: "Books I've Enjoyed"
 aliases: "/booklist/"
 lastmod: "2022-07-21"
 ---
+Favorite books: 
+
+* *Artemis* by Andy Weir
+* Matt Cruise Trilogy by Kenneth Oppel (Starclimber << Airborn << Starclimber)
+
 In roughly chronological order (most recent to oldest), these are some books I've read and particularly enjoyed (or just don't want to forget).
 
 ---
+Project Hail Mary
+: Andy Weir
+
+The Ballad of Songbirds and Snakes
+: Suzanne Collins
+
 Flowers of Luna
 : Jennifer Linsky
 
