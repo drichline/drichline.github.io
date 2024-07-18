@@ -25,7 +25,7 @@ Solve for thrust; substitute equivalent velocity:
 
 $$\Sigma F = \dot m v_e + A_e (P_e-P_a);~v_{eq}=v_e+\frac{A_e(P_e-P_a)}{\dot m}$$
 
-Thrust at optimum expansion:
+Thrust equation:
 
 $$T=\dot m v_{eq}$$
 
