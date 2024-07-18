@@ -25,7 +25,7 @@
     {{ end }}
     {{ if eq .Kind "page" }}
     {{ with .Page.Lastmod }}
-        <p>Last modified: {{ .Format "2006/01/02" }}</p>
+        <p>Last modified: {{ .Format "2006-01-02" }}</p>
     {{ end }}
     {{ end }}
     </section>

@@ -2,8 +2,10 @@
 title: "Approximating π and the Circumference of the Universe on a Business Card"
 date: "2021-03-21"
 lastmod: "2021-09-10"
-toc: "true"
+#toc: "true"
 ---
+
+### Note: this article was revised in [Revisiting the "Pi Business Card"](/pages/juliapi)
 
 *Warning: my calculus and programming skills are pretty amateurish. Experts, try not to cringe*
 
