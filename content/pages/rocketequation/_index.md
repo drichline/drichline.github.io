@@ -1,5 +1,5 @@
 ---
-title: "Deriving the Ideal Rocket Equation for a tattoo"
+title: "Deriving the Ideal Rocket Equation"
 date: "2024-07-17"
 ---
 
