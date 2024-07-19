@@ -29,8 +29,8 @@ extensions = [
     weight = "3"
 
   [[menu.links]]
-    name = "Instagram"
-    url = "https://www.instagram.com/dakota.richline/"
+    name = "Discord: dakota6929"
+    url = ""
     weight = "4"
 
   [[menu.links]]
