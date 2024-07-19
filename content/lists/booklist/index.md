@@ -6,7 +6,7 @@ lastmod: "2022-07-21"
 Favorite books: 
 
 * *Artemis* by Andy Weir
-* Matt Cruise Trilogy by Kenneth Oppel (Starclimber << Airborn << Starclimber)
+* *Skybreaker* and *Airborn* by Kenneth Oppel (didn't like Starclimber)
 
 In roughly chronological order (most recent to oldest), these are some books I've read and particularly enjoyed (or just don't want to forget).
 
