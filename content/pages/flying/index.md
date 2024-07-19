@@ -2,6 +2,7 @@
 title: "Flying"
 date: "2019-01-01"
 lastmod: "2021-03-07"
+draft: true
 ---
 {{< figure alt="Airplane in hangar" src="fuelling.jpg" caption="Filling N909AB with enough gas for a 1,300km flight" >}}
 

@@ -3,6 +3,7 @@ title: "Riding the Legend: Daily-riding a Classic Motorcycle"
 date: "2020-09-09"
 lastmod: "2021-03-07"
 aliases: "/pages/motorcycles/"
+draft: true
 ---
 
 *This essay was written for a Composition and Rhetoric class*
