@@ -6,7 +6,7 @@ title: "About Me"
 * I'm a senior in aerospace engineering on Florida's Space Coast
 * I landed a sport plane 78 times (and will gladly accept more flight hours!)
 * I used to machine parts for artificial shoulders and surgical instruments at Exactech
-* I 💜 dimensional analysis and the SI
+* I 💜 dimensional analysis, metrology, and the SI
 * Xenon and titanium are my favorite elements
 * My favorite song is [Life on Mars?](/files/lifeonmars.webm)
 * Mercedes is my favorite Formula 1 team
