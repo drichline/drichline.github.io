@@ -1,5 +1,5 @@
 ---
-title: "[PDF] Spacecraft Observation Report"
+title: "[PDF] Orbital Mechanics: Spacecraft Observation Report"
 date: "2023-11-12"
 ---
 

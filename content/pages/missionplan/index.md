@@ -1,6 +1,7 @@
 ---
-title: "[PDF] Mission Plan: Neptube Orbiter"
+title: "[PDF] Mission Plan: Neptune Orbiter"
 date: "2023-12-01"
+draft: true
 ---
 
 

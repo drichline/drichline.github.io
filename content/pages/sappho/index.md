@@ -1,5 +1,5 @@
 ---
-title: "[PDF] SAPPHO: Spectroscopic Analysis of Phobos Plus HD Orbital Survey"
+title: "[PDF] SME Project: SAPPHO Phobos Lander"
 date: "2024-02-21"
 ---
 
