@@ -1,16 +1,16 @@
 ---
 title: "Books I've Enjoyed"
 aliases: "/booklist/"
-lastmod: "2022-07-21"
+lastmod: "2024-07-21"
 ---
 Favorite books: 
 
 * *Artemis* by Andy Weir
-* *Skybreaker* and *Airborn* by Kenneth Oppel (didn't like Starclimber)
-
-In roughly chronological order (most recent to oldest), these are some books I've read and particularly enjoyed (or just don't want to forget).
+* *Skybreaker* and *Airborn* by Kenneth Oppel (didn't like *Starclimber*)
 
 ---
+In roughly chronological order (most recent to oldest), these are some books I've read and particularly enjoyed (or just don't want to forget).
+
 Project Hail Mary
 : Andy Weir
 

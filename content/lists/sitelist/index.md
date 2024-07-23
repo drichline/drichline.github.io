@@ -2,6 +2,7 @@
 title: "My Favorite Websites"
 date: "2021-09-25"
 lastmod: "2022-05-18"
+draft: true
 ---
 
 [What is Nuclear?](https://whatisnuclear.com/)

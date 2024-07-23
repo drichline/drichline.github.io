@@ -1,6 +1,7 @@
 ---
 title: "Vehicles I've Owned"
 lastmod: "2021-09-03"
+draft: true
 ---
 
 In roughly chronological order (oldest to most recent), these are the vehicles I've owned and some facts about them
