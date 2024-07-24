@@ -79,6 +79,14 @@
             transition: all .25s cubic-bezier(.08,.59,.29,.99);
             }
             li > a:hover { color: #7d7e7d; background-color: white; }
+
+            #email::before {
+               content:"drichline@"
+            }
+
+            #email::after {
+                content:"pm.me"
+            }
         </style>
     </head>
     <body>
@@ -86,9 +94,14 @@
         <img alt="Portrait of Dakota" src='/images/mullet.webp'>
         <h1>Dakota Richline</h1>
         <ul>
-        {{ range .Site.Menus.links }}
+        <!-- {{ range .Site.Menus.links }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-        {{ end }}
+        {{ end }} -->
+        <li><a href="/">Personal site</a></li>
+        <li><a href="">Email: <span id="email"></span></a></li>
+        <li><a href="">Discord: dakota6929</a></li>
+        <li><a href="https://www.linkedin.com/in/drichline/">LinkedIn: drichline</a></li>
+        <li><a href="/lists/booklist/">Books I've Enjoyed</a></li>
         </ul>
         <h2>&copy;2018-{{ now.Format "2006" }} Dakota Richline</h2>
     </body>

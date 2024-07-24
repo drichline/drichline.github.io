@@ -12,28 +12,29 @@ extensions = [
     "DefinitionLists",
 ]
 
-[menu]
-  [[menu.links]]
-    name = "Email: drichline@pm.me"
-    url = "mailto:drichline@pm.me"
-    weight = "1"
-
-  [[menu.links]]
-    name = "Personal site"
-    url = "/"
-    weight = "2"
-
-  [[menu.links]]
-    name = "LinkedIn"
-    url = "https://www.linkedin.com/in/drichline/"
-    weight = "3"
-
-  [[menu.links]]
-    name = "Discord: dakota6929"
-    url = ""
-    weight = "4"
-
-  [[menu.links]]
-    name = "Books I've Enjoyed"
-    url = "/lists/booklist/"
-    weight = "5"
+#[menu]
+#
+#  [[menu.links]]
+#    name = "Personal site"
+#    url = "/"
+#    weight = "1"
+#
+#  [[menu.links]]
+#    name = "<span id=\"email\"></span>"
+#    url = "mailto:drichline@pm.me"
+#    weight = "2"
+#
+#  [[menu.links]]
+#    name = "Discord: dakota6929"
+#    url = ""
+#    weight = "3"
+#
+#  [[menu.links]]
+#    name = "LinkedIn: drichline"
+#    url = "https://www.linkedin.com/in/drichline/"
+#    weight = "4"
+#
+#  [[menu.links]]
+#    name = "Books I've Enjoyed"
+#    url = "/lists/booklist/"
+#    weight = "5"
