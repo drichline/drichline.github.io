@@ -14,7 +14,7 @@ html {
     margin: 0;
     padding: 0;
     /* Prevent that nasty white flash as the background downloads */
-    background-color: #252525;
+    background-color: black;
 }
 
 /* Typography */
@@ -313,7 +313,7 @@ footer p {
 
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 600px) {
     nav.topnav {
         align-items: flex-start;
     }
@@ -344,7 +344,7 @@ footer p {
     }
 }
 
-@media only screen and (min-width : 481px) {
+@media only screen and (min-width : 601px) {
     html {
         background-image: url(/images/Ubuntu-Mate-Cold-no-logo-compressed.avif);
         background-repeat: no-repeat;
