@@ -11,6 +11,8 @@ As shown below, the objective for this problem is to point the SV body axes at \
 
 {{< figure alt="plot of reaction wheel speed vs time" src="rwspeed.png" caption="Reaction wheel RPM drops from 3500 to 1000 during desaturation, while thrusters hold the vehicle at a constant attitude">}}
 
+NOTE: \\\(\tau_3\\\) is significantly smaller than the other torques because the 3-axis has a much lower mass moment of inertia. 
+
 {{< figure alt="plot of SV angular momentum vs time" src="angmomentum.png" caption="Angular momentum is constantly increasing from the disturbance torque; desaturation reduces it to the amount stored by the reaction wheels at 1000 RPM">}}
 
 {{< figure alt="initial attitude of satellite with parameters" src="Initial-attitude.png" caption="Initial attitude of space vehicle \\\(\langle 1,1,1 \rangle\_i \\\)" >}}
