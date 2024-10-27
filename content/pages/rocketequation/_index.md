@@ -3,8 +3,6 @@ title: "Deriving the Ideal Rocket Equation"
 date: "2024-07-17"
 ---
 
-{{< figure alt="tattoo of rocket equation" src="tattoo.jpeg" caption="Fresh ink; it turned out perfect and looks even better healed. Done by Abe at Selfcare Trifecta" >}}
-
 ## Derivation (acceleration method)
 
 Conservation of linear momentum in a control volume:
@@ -60,3 +58,7 @@ $$\Delta v = I_{sp} g_0\ln\frac{m_0}{m_f};~I_{sp} = \frac{T}{\dot m g_0}$$
 Exponential form:
 
 $$m_0 = m_f e^\frac{\Delta v}{I_{sp}g_0}$$
+
+---
+
+{{< figure alt="tattoo of rocket equation" src="tattoo.jpeg" caption="Fresh ink; it turned out perfect and looks even better healed. Done by Abe at Selfcare Trifecta" >}}
