@@ -19,11 +19,11 @@
 </span></span><span style=display:flex><span>        <span style=color:#f92672>SERVICE1_TOR_SERVICE_VERSION</span>: <span style=color:#e6db74>&#39;3&#39;</span>
 </span></span><span style=display:flex><span>        <span style=color:#75715e># Optional as tor version 2 is not supported anymore</span>
 </span></span><span style=display:flex><span>        <span style=color:#f92672>SERVICE1_TOR_SERVICE_KEY</span>: |<span style=color:#e6db74>
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>          (privkey)</span>          
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>          (privkey)</span>
 </span></span><span style=display:flex><span>        <span style=color:#75715e># tor v3 address private key base 64 encoded</span>
 </span></span><span style=display:flex><span>        <span style=color:#f92672>TOR_EXTRA_OPTIONS</span>: |<span style=color:#e6db74>
 </span></span></span><span style=display:flex><span><span style=color:#e6db74>          HiddenServiceNonAnonymousMode 1
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>          HiddenServiceSingleHopMode 1</span>          
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>          HiddenServiceSingleHopMode 1</span>
 </span></span><span style=display:flex><span>        <span style=color:#75715e># Uses a single hop between server and rendezvous point instead of 3; boosts performance to that of a clearnet site</span>
 </span></span><span style=display:flex><span>  <span style=color:#f92672>caddy</span>:
 </span></span><span style=display:flex><span>    <span style=color:#f92672>image</span>: <span style=color:#ae81ff>caddy:latest</span>
