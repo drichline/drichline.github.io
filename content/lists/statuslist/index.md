@@ -2,6 +2,7 @@
 title: "Custom Discord Statuses"
 date: "2022-09-01"
 lastmod: "2022-09-06"
+draft: true
 ---
 Below are some Discord statuses I've used and enjoyed, which tend to be references to my favorite media:
 
