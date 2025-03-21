@@ -3,7 +3,8 @@ title: "About Me"
 ---
 <img alt="Portrait of Dakota" id="profile" style="max-width:25ch; display: block; margin: auto; border-radius: 50%;" src="/images/mullet.webp">
 
-* I'm a senior in aerospace engineering on Florida's Space Coast
+* I earned a B.S. in aerospace engineering on Florida's Space Coast
+* I have several tandem skydives at Skydive Sebastian
 * I landed a sport plane 78 times (and will gladly accept more flight hours!)
 * I used to machine parts for artificial shoulders and surgical instruments at Exactech
 * I 💜 dimensional analysis, metrology, and the SI
