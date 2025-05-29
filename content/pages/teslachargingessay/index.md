@@ -1,6 +1,7 @@
 ---
 title: "Tesla Charging: Fast, Easy, Consistent"
 date: "2020-10-29"
+draft: "true"
 ---
 
 *This essay was written for a Composition and Rhetoric class*
