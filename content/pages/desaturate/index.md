@@ -1,9 +1,12 @@
 ---
 title: "SV Control: Desaturating Reaction Wheels in the Satellite Simulator"
 date: "2023-11-20"
+lastmod: "2025-05-29"
 ---
 
-Background: my professor for Space Vehicle control (Dr. Eric Swenson) wrote an incredible satellite dynamics simulator with a PID controller in MATLAB. Assignments for the class provided a specific end condition of the vehicle, and we wrote code that controls the simulator. A big part of it was representing the rotation from initial to final attitude; I liked to use dot/cross products, Euler axis/angle, DCMs, and quaternions depending on the situation. Below is my favorite problem out of all the assignments
+## Background
+
+My professor for Space Vehicle control (Dr. Eric Swenson) wrote an incredible satellite dynamics simulator with a PID controller in MATLAB. Assignments for the class provided a specific end condition of the vehicle, and we wrote code that controls the simulator. A big part of it was representing the rotation from initial to final attitude; I liked to use dot/cross products, Euler axis/angle, DCMs, and quaternions depending on the situation. Below is my favorite problem out of all the assignments
 
 ## Objective
 
