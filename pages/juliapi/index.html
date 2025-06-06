@@ -3,7 +3,7 @@
 <a class=logo href=/>Home</a>
 <a href=/pages>Pages</a>
 <a href=/about>About Me</a>
-<a href=/resume.pdf>Resume</a>
+<a href=/files/resume.pdf>Resume</a>
 <a href=https://www.qrz.com/db/kq6g/>Amateur Radio</a>
 <a href=/contact>Contact</a></div></nav><main><div class=content><section><h1>Revisiting the "Pi Business Card"</h1><p>My math/programming skills have improved considerably since my <a href=/pages/picard>last post</a> on the topic, so I sat down and rewrote it in <a href=https://julialang.org/>Julia</a> (current favorite language). <em>TL;DR</em>: integrating \(\int^1_0 4\sqrt{1-x^2}dx\) is a really intuitive way to calculate the value of pi. I did it previously in Python using an awful (and certainly not &ldquo;badass&rdquo;) Riemann Sum that took hours to run.</p><p>I recently wrote a Simpson&rsquo;s 3/8 Rule approximation in MATLAB for an Aerospace Computational Techniques class, which only took a few minutes to translate into Julia&rsquo;s very similar syntax:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-julia data-lang=julia><span style=display:flex><span><span style=color:#66d9ef>using</span> Printf
 </span></span><span style=display:flex><span>
