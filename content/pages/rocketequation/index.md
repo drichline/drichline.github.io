@@ -1,13 +1,14 @@
 ---
 title: "Deriving the Ideal Rocket Equation"
 date: "2024-07-17"
+lastmod: "2025-06-19"
 ---
 
 ## Derivation (acceleration method)
 
-Conservation of linear momentum in a control volume:
-
 {{< figure alt="Control volume diagram of rocket engine" src="diagram.png" caption="Control volume diagram of rocket engine" >}}
+
+Conservation of linear momentum in a control volume:
 
 $$\frac{\partial}{\partial t}\int_{CV} \rho \vec v dV = -\int_{CS}\rho v_{rel} \left(\vec v \cdot \vec{dA}\right) - \int_{CS} P\cdot\vec{dA} + \int_{CV}\rho\vec F dV + \Sigma\vec F$$
 
