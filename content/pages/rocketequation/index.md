@@ -66,7 +66,7 @@ $$\Delta v = v_{eq}\ln\frac{m_0}{m_f}$$
 
 $$\Delta v = I_{sp} g_0\ln\frac{m_0}{m_f}$$
 
-$$I_{sp} = \frac{T}{\dot m g_0}$$
+$$I_{sp} = \frac{T}{\dot m g_0} = \frac{v_{eq}}{g_0}$$
 
 Exponential form:
 
