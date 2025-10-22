@@ -1,6 +1,10 @@
 ---
 title: "About Me"
 ---
+
+{{< figure alt="Skydiving photo" src="cat c2.png" caption="Cat C2 Skydive" >}}
+
+
 <img alt="Portrait of Dakota" id="profile" style="max-width:25ch; display: block; margin: auto; border-radius: 50%;" src="/images/mullet.webp">
 
 * I earned a B.S. in aerospace engineering on Florida's Space Coast
