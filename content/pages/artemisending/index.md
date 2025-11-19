@@ -1,5 +1,5 @@
 ---
-title: "AI-Generated altenative ending to Andy Weir's 𝘈𝘳𝘵𝘦𝘮𝘪𝘴"
+title: "AI-Generated altenative ending to Andy Weir's Artemis"
 date: "2025-04-07"
 ---
 
