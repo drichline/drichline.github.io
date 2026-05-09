@@ -6,22 +6,17 @@
 <a href=/about>About Me</a>
 <a href=/files/resume.pdf>Resume</a>
 <a href=https://www.qrz.com/db/kq6g/>Amateur Radio</a>
-<a href=/contact>Contact</a></div></nav><main><div class=content><section><h1>Containerized Passmark</h1><p>I containerized passmark for easy x86 benchmarking. For some reason the program crashes when you scroll the terminal window; spent a while debugging it and still can&rsquo;t find the reason.</p><h2 id=try-it-yourself>Try it yourself</h2><p><code>docker run --rm -it docker.io/drichline/passmark</code></p><p><code>podman run --rm -it docker.io/drichline/passmark</code></p><h2 id=containerfile>Containerfile</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Start from Ubuntu 24.04 base image</span>
-</span></span><span style=display:flex><span>FROM ubuntu:24.04
+<a href=/contact>Contact</a></div></nav><main><div class=content><section><h1>Containerized Passmark</h1><p>I containerized passmark for easy x86 benchmarking. The program crashes when you scroll the terminal window; spent a while debugging it and it appears to be an issue with the binary.</p><h2 id=try-it-yourself>Try it yourself</h2><p><code>docker run --rm -it docker.io/drichline/passmark</code></p><p><code>podman run --rm -it docker.io/drichline/passmark</code></p><h2 id=containerfile>Containerfile</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Start from Ubuntu 22.04 base image</span>
+</span></span><span style=display:flex><span>FROM docker.io/ubuntu:22.04
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#75715e># Install dependencies (ncurses 5 is not in Ubuntu 24.04 repos, so we fetch it from old releases)</span>
-</span></span><span style=display:flex><span>RUN apt-get -y update <span style=color:#f92672>&amp;&amp;</span> <span style=color:#ae81ff>\
-</span></span></span><span style=display:flex><span>	apt-get -y install wget libcurl4t64 <span style=color:#f92672>&amp;&amp;</span> <span style=color:#ae81ff>\
-</span></span></span><span style=display:flex><span>	wget http://security.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.3-2ubuntu0.1_amd64.deb http://security.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.3-2ubuntu0.1_amd64.deb <span style=color:#f92672>&amp;&amp;</span> <span style=color:#ae81ff>\
-</span></span></span><span style=display:flex><span>	apt-get -y install ./libtinfo5_6.3-2ubuntu0.1_amd64.deb ./libncurses5_6.3-2ubuntu0.1_amd64.deb
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#75715e># RUN apt-get update &amp;&amp; apt-get install -y wget gdebi-core &amp;&amp; \</span>
-</span></span><span style=display:flex><span><span style=color:#75715e>#     wget http://security.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.3-2ubuntu0.1_amd64.deb &amp;&amp; \</span>
-</span></span><span style=display:flex><span><span style=color:#75715e>#     gdebi -n libncurses5_6.3-2ubuntu0.1_amd64.deb &amp;&amp; \</span>
-</span></span><span style=display:flex><span><span style=color:#75715e>#     rm libnlibncurses5_6.3-2ubuntu0.1_amd64.deb &amp;&amp; \</span>
-</span></span><span style=display:flex><span><span style=color:#75715e>#     apt-get clean &amp;&amp; rm -rf /var/lib/apt/lists/*</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>RUN apt-get update <span style=color:#f92672>&amp;&amp;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span>    DEBIAN_FRONTEND<span style=color:#f92672>=</span>noninteractive apt-get install -y <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span>        libtinfo5 <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span>        libcurl4 <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span>        libncurses5 <span style=color:#f92672>&amp;&amp;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span>    rm -rf /var/lib/apt/lists/*
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#75715e># Copy your binary into the container</span>
 </span></span><span style=display:flex><span>COPY pt_linux_x64 /usr/local/bin/
@@ -30,4 +25,4 @@
 </span></span><span style=display:flex><span>RUN chmod +x /usr/local/bin/pt_linux_x64
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#75715e># Default command</span>
-</span></span><span style=display:flex><span>CMD <span style=color:#f92672>[</span><span style=color:#e6db74>&#34;/usr/local/bin/pt_linux_x64&#34;</span><span style=color:#f92672>]</span></span></span></code></pre></div><p>Last modified: 2026-04-14</p></section></div></main><footer><span>&copy;2018-2026 Dakota Richline </span><a rel=license href=http://creativecommons.org/licenses/by/4.0/><img alt="Creative Commons License" style=border-width:0 src=/images/80x15.png></a><br><span><i>Ad Astra Per Scientiam!</i></span></footer></body></html>
+</span></span><span style=display:flex><span>CMD <span style=color:#f92672>[</span><span style=color:#e6db74>&#34;/usr/local/bin/pt_linux_x64&#34;</span><span style=color:#f92672>]</span></span></span></code></pre></div><p>Last modified: 2026-05-09</p></section></div></main><footer><span>&copy;2018-2026 Dakota Richline </span><a rel=license href=http://creativecommons.org/licenses/by/4.0/><img alt="Creative Commons License" style=border-width:0 src=/images/80x15.png></a><br><span><i>Ad Astra Per Scientiam!</i></span></footer></body></html>
