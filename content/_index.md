@@ -11,7 +11,7 @@ Please check out some pages with the links above. This is an amateur website for
 
 ---
 
-<img alt="Skydiving Photo" style="display: block; margin: auto;" src="/images/cat c2.png">
+<img alt="Skydiving Photo" style="display: block; margin: auto;" src="/images/cat c2.avif">
 
 ---
 
