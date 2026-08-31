@@ -28,7 +28,7 @@ $$\Sigma F = \dot m v_e + A_e (P_e-P_a)$$
 
 $$v_{eq}=v_e+\frac{A_e(P_e-P_a)}{\dot m}$$
 
-Thrust equation (\\\(v_e = v_{eq}\\\) at optimum expansion \\\(P_e=P_a\\\)):
+Thrust equation (\(v_e = v_{eq}\) at optimum expansion \(P_e=P_a\)):
 
 $$T=\dot m v_{eq}$$
 

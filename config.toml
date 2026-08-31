@@ -7,10 +7,12 @@ disableKinds=["RSS"]
 [markup.goldmark.renderer]
 unsafe= true
 
-[blackfriday]
-extensions = [
-    "DefinitionLists",
-]
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['$$', '$$']]
+inline = [['\(', '\)']]
 
 #[menu]
 #

@@ -19,19 +19,19 @@ So, I started banging rocks together with a calculator until I figured out the e
 
 ## Where *does* π come from?
 
-For the uninitiated, π is just the ratio between a circle's diameter and circumference. If you laid a 1 foot wide circle of string on the floor, that piece of string would be 3.14 feet long. In other words, its circumference is equal to π times the diameter: \\\(c=2\pi r\\\). There are plenty of efficient formulas to calculate the value of π, but it's difficult to understand *why* they converge to π as a naïve student. 
+For the uninitiated, π is just the ratio between a circle's diameter and circumference. If you laid a 1 foot wide circle of string on the floor, that piece of string would be 3.14 feet long. In other words, its circumference is equal to π times the diameter: \(c=2\pi r\). There are plenty of efficient formulas to calculate the value of π, but it's difficult to understand *why* they converge to π as a naïve student. 
 
 ## Area of a circle and π
 
-The area of a circle is π times the radius squared: \\\(A=\pi r^2\\\). If the radius of the circle is \\\(r=1\\\), its area is π. If I want to solve for the value of π, all I need to do is find the area of the \\\(r=1\\\) circle using another method, and the answer is π! (\\\(A=\pi\\\)) 
+The area of a circle is π times the radius squared: \(A=\pi r^2\). If the radius of the circle is \(r=1\), its area is π. If I want to solve for the value of π, all I need to do is find the area of the \(r=1\) circle using another method, and the answer is π! (\(A=\pi\)) 
 
-A circle is defined by the equation \\\(x^2+y^2=r^2\\\), and half the circle is \\\(y=\sqrt{r^2-x^2}\\\).
+A circle is defined by the equation \(x^2+y^2=r^2\), and half the circle is \(y=\sqrt{r^2-x^2}\).
 
-{{< figure alt="Graph of half a circle" src="halfcircle.png" caption="Graph of \\\(y=\sqrt{r^2-x^2},r=1\\\)" >}}
+{{< figure alt="Graph of half a circle" src="halfcircle.png" caption="Graph of \(y=\sqrt{r^2-x^2},r=1\)" >}}
 
 Now that half of the circle is represented as a function of x, it's possible to find the area *underneath* that curve by taking the definite integral of the function. The integral of the function between 0 and 1 is really the area of 1/4 the circle (represented by the purple shaded region in the graph below). 
 
-{{< figure alt="Graph of a full circle" src="fullcircle.png" caption="The circle is \\\(x^2+y^2=r^2,r=1\\\). The shaded region represents \\\(\int^1_0{\sqrt{1-x^2}dx}\\\), which is \\\(\frac{\pi}{4}\\\)" >}}
+{{< figure alt="Graph of a full circle" src="fullcircle.png" caption="The circle is \(x^2+y^2=r^2,r=1\). The shaded region represents \(\int^1_0{\sqrt{1-x^2}dx}\), which is \(\frac{\pi}{4}\)" >}}
 
 Therefore, taking the integral of 1/4 the circle, then multiplying by 4 is the area of the circle, which is equal to π!
 
