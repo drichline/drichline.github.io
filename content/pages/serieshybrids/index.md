@@ -1,7 +1,7 @@
 ---
 title: "Why Series Hybrids Can Be Elegant Electric Vehicles"
 date: "2021-02-24"
-toc: "true"
+toc: true
 ---
 
 ## Introduction

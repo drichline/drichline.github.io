@@ -2,7 +2,7 @@
 title: "How I Hosted this Website on Tor"
 date: "2022-08-08"
 lastmod: "2022-08-08"
-toc: "true"
+toc: true
 ---
 
 I have a soft spot for cryptography and alternative web protocols like [Gemini](https://gemini.circumlunar.space/) and Tor. Experimenting with any of these protocols is just a hobby project, but I've found that hosting on Tor is more practical and by far the best option for learning. This is how I hosted a [mirror](http://dakota3sjlgd5qt5nygektopktodk4krxw56xhkyzljhxuj3kroz5qqd.onion) of richline.rocks on Tor:

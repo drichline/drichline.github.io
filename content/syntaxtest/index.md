@@ -1,6 +1,6 @@
 ---
 title: "Typography & Markdown Syntax Test"
-toc: "true"
+toc: true
 ---
 
 # Markdown: Syntax
