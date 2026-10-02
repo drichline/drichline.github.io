@@ -1,0 +1,8 @@
+{{- $dir := .Get "dir" | default "" -}}
+{{- range .Page.Resources.ByType "image" }}
+  {{- if or (not $dir) (hasPrefix .Name (printf "%s/" $dir)) }}
+<figure>
+  <a href="{{ .RelPermalink }}"><img src="{{ .RelPermalink }}" loading="lazy" alt="{{ .Name }}"></a>
+</figure>
+  {{- end }}
+{{- end }}
