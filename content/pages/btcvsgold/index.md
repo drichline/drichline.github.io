@@ -1,6 +1,7 @@
 ---
 title: "Bitcoin \"Store of Value\" problems: Supply Distribution and Control"
 date: "2021-02-28"
+math: true
 ---
 
 Some proponents of Bitcoin claim it to be a store of value on par with gold. However, I see at least two glaring problems with Bitcoin that don't affect gold. 

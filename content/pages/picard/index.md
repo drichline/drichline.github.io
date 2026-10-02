@@ -2,6 +2,7 @@
 title: "Approximating π and the Circumference of the Universe on a Business Card"
 date: "2021-03-21"
 lastmod: "2021-09-10"
+math: true
 #toc: "true"
 ---
 

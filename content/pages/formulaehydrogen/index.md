@@ -1,6 +1,7 @@
 ---
 title: "Could Formula E cars run on hydrogen?"
 date: "2021-03-01"
+math: true
 ---
 
 *Note: I did not research hydrogen-powered racing before writing this article; I wanted to use deductive reasoning and napkin math to satisfy my curiosity*

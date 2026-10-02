@@ -2,6 +2,7 @@
 title: "SV Control: Desaturating Reaction Wheels in the Satellite Simulator"
 date: "2023-11-20"
 lastmod: "2025-05-29"
+math: true
 ---
 
 ## Background

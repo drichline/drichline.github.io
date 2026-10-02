@@ -2,6 +2,7 @@
 title: "Deriving the Ideal Rocket Equation"
 date: "2024-07-17"
 lastmod: "2025-06-19"
+math: true
 ---
 
 ## Derivation (acceleration method)

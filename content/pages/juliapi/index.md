@@ -2,6 +2,7 @@
 title: "Revisiting the \"Pi Business Card\""
 date: "2023-02-28"
 lastmod: "2024-07-17"
+math: true
 ---
 
 My math/programming skills have improved considerably since my [last post](/pages/picard) on the topic, so I sat down and rewrote it in [Julia](https://julialang.org/) (current favorite language). *TL;DR*: integrating \(\int^1_0 4\sqrt{1-x^2}dx\) is a really intuitive way to calculate the value of pi. I did it previously in Python using an awful (and certainly not "badass") Riemann Sum that took hours to run. 

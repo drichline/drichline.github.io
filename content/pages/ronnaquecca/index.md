@@ -2,6 +2,7 @@
 title: "Should Ronna and Quecca be added to the SI? A rant"
 date: "2022-07-07"
 lastmod: "2022-08-17"
+math: true
 ---
 
 {{<figure alt="poll results" src="poll.png">}}
