@@ -237,6 +237,12 @@ main {
     word-wrap: break-word;
 }
 
+.content li p {
+    margin: 0;
+    margin-left: 1rem;
+    margin-bottom: 0!important;
+}
+
 .content dt {
     font-weight: bold;
 }
