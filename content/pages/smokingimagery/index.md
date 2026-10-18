@@ -17,6 +17,8 @@ It's also a demonstration of how emotions distort our memories: as I remembered,
 
 ---
 
+{{< figure alt="Smoking in Better Call Saul" caption="Smoking in Better Call Saul" src="saulsmoking.jpg" >}}
+
 My favorite example is *Better Call Saul*. Besides the use of smoking as an indirect plot device, it's unique for not showing any of the drawbacks of smoking in a mid-late 2010s show. It feels like a new paradigm between the ubiquitous, irrelevant smoking in vintage media, and more modern media that often has a seemingly forced compulsion to remind the viewer that smoking is, in fact, bad. 
 
 From the very first episode, a seemingly insignificant scene becomes an integral part of the story. The mere presence of a cigarette immediately demonstrates the relationship between two friends far better than words ever could. It also adds a whole new level to the already beautiful cinematography. We don't see smoking often, but from the beginning it's so entwined in these characters' stories that the mere presence of a cigarette immediately signifies the importance of what's happening in the overarching story. Six seasons later, one measly cigarette harkens back to the pilot and brings the years-long story full circle; adding closure and acting as a vital element of the scene's composition. 
