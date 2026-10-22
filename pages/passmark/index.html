@@ -4,7 +4,7 @@
 <a href=/pages>Pages</a>
 <a href=/skydiving>Skydiving</a>
 <a href=/about>About Me</a>
-<a href=/files/resume.pdf>Resume</a>
+<a href=https://github.com/drichline>GitHub</a>
 <a href=https://www.qrz.com/db/kq6g/>Amateur Radio</a>
 <a href=/contact>Contact</a></div></nav><main><div class=content><section><h1>Containerized Passmark</h1><p>I containerized passmark for easy x86 benchmarking. The program crashes when you scroll the terminal window; spent a while debugging it and it appears to be an issue with the binary.</p><h2 id=try-it-yourself>Try it yourself</h2><p><code>docker run --rm -it docker.io/drichline/passmark</code></p><p><code>podman run --rm -it docker.io/drichline/passmark</code></p><h2 id=containerfile>Containerfile</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Start from Ubuntu 22.04 base image</span>
 </span></span><span style=display:flex><span>FROM docker.io/ubuntu:22.04
