@@ -62,7 +62,25 @@ toc: false
     box-shadow: inset -1px -1px var(--window-frame), inset 1px 1px var(--button-face), inset -2px -2px var(--button-shadow), inset 2px 2px var(--button-highlight);
   background: var(--surface);
   padding: 3px;
-  width: 260px;
+  width: 300px;
+    }
+
+    #musicplayer #m3u {
+      line-height: normal;
+      margin: 0;
+      margin-bottom: 0!important;
+      padding: 0;
+      text-align: center;
+    }
+
+
+    #musicplayer #m3u a {
+      font-family: "Pixelated MS Sans Serif", Arial;
+      -webkit-font-smoothing: none;
+      font-size: 11px;
+      font-weight: lighter;
+      color: #0000ff;
+      text-decoration: none;
     }
 
     .title-color {  
@@ -105,6 +123,8 @@ toc: false
   border: 2px solid var(--surface);
   width:95px;
   height:95px;
+  width:120px;
+  height:120px;
   padding: 1px;
   background-image:linear-gradient(-45deg, var(--button-face) 50%, var(--window-frame) 50%);
   background-size:cover;
@@ -122,8 +142,10 @@ toc: false
     background-image:var(--player-image);
     background-size: contain;
     background-repeat: no-repeat;
-  width:95px;
-  height:95px;
+  /* width:95px;
+  height:95px; */
+  width:120px;
+  height:120px;
   /* display: display; */
 }
 
@@ -328,6 +350,7 @@ toc: false
             </div>
             <div class="player-main">
         <select class="track-select"></select>
+        <p id="m3u"><a href="">Download .m3u</a></p>
       <div class="controls">
           <div class="seeking">
               <div class="current-time">00:00</div>
@@ -364,31 +387,31 @@ let track_list = [
       {
           name:"Lofi Girl",
           artist:"Various",
-          path:`https://radio.perilune.space/lofi_girl.mp3?t=${Date.now()}`,
+          path:`https://radio.perilune.space/lofi_girl.mp3`,
           image:"lofigirl.jpg"
       },
       {
           name:"Los Santos Rock Radio",
           artist:"Various",
-          path:`https://radio.perilune.space/lsrr.mp3?t=${Date.now()}`,
+          path:`https://radio.perilune.space/lsrr.mp3`,
           image:"lsrr.png"
       },
     //   {
     //       name:"Los Santos Rock Radio (No Ads)",
     //       artist:"Various",
-    //       path:`https://radio.perilune.space/lsrr_noads.mp3?t=${Date.now()}`,
+    //       path:`https://radio.perilune.space/lsrr_noads.mp3`,
     //       image:"lsrr.png"
     //   },
       {
           name:"Wii Music",
           artist:"Nintendo",
-          path:`https://radio.perilune.space/wii.mp3?t=${Date.now()}`,
+          path:`https://radio.perilune.space/wii.mp3`,
           image:"wii.png"
       },
       {
           name:"Car Talk",
           artist:"NPR",
-          path:`https://radio.perilune.space/cartalk.mp3?t=${Date.now()}`,
+          path:`https://radio.perilune.space/cartalk.mp3`,
           image:"cartalk.jpg"
       },
   ];
@@ -401,6 +424,7 @@ let playpause_btn = document.querySelector(".playpause-track");
 let seek_slider = document.querySelector(".seek_slider");
 let curr_time = document.querySelector(".current-time");
 let total_duration = document.querySelector(".total-duration");
+let m3u = document = document.querySelector("#m3u a");
 
 let track_index = 0;
 let isPlaying = false;
@@ -422,10 +446,11 @@ function populateDropdown() {
 
 function loadTrack(track_index) {
   document.documentElement.style.cssText = `--player-image: url(${track_list[track_index].image})`;
+  m3u.href = `${track_list[track_index].path}.m3u`
   clearInterval(updateTimer);
   resetValues();
 
-  curr_track.src = track_list[track_index].path;
+  curr_track.src = track_list[track_index].path + "?t=" + Date.now();
   curr_track.load();
 
   if (now_playing) now_playing.textContent = (track_index + 1) + " / " + track_list.length;
