@@ -8,8 +8,6 @@ toc: false
 
 
 <!-- Player modified from Loveberry: https://loveberry.nekoweb.org/resources/snippets -->
-<title>Radio</title>
-
 <style>
 #musicplayer .title-color img {
     height: 14px;
@@ -126,7 +124,7 @@ toc: false
     background-repeat: no-repeat;
   width:95px;
   height:95px;
-  display: display;
+  /* display: display; */
 }
 
 /* BELOW IS LARGELY RIPPED FROM 98 CSS */
@@ -312,7 +310,8 @@ toc: false
 
 </style>
 
-<div id="musicplayer">   
+<!-- <div id="musicplayer" style="margin-bottom: 5rem;"> Margin for bunny image underneath   -->
+<div id="musicplayer" style="margin-bottom: 5rem;">   
         <div class="title-color">
             <div class="actual-title">
             <img src="player-icon.png" alt=""> Radio Tuner
@@ -329,11 +328,6 @@ toc: false
             </div>
             <div class="player-main">
         <select class="track-select"></select>
-        <!-- <div>
-            <div id="track">
-                <span>Hello world</span>
-            </div>
-        </div> -->
       <div class="controls">
           <div class="seeking">
               <div class="current-time">00:00</div>
@@ -358,7 +352,13 @@ toc: false
   </div>
 
 
+<!-- <div style="width: 500px; margin: auto">
+{{< figure alt="Radio Bunny" src="radiobunny.gif" >}}
+</div> -->
+
 <script>
+document.title = "Radio | perilune.space";
+
 // DEFINE YOUR SONGS HERE
 let track_list = [
       {
