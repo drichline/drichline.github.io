@@ -385,6 +385,12 @@ let track_list = [
           path:`https://radio.perilune.space/wii.mp3?t=${Date.now()}`,
           image:"wii.png"
       },
+      {
+          name:"Car Talk",
+          artist:"NPR",
+          path:`https://radio.perilune.space/cartalk.mp3?t=${Date.now()}`,
+          image:"cartalk.jpg"
+      },
   ];
   
 // THATS ALL TY :3
