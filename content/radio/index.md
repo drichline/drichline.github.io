@@ -456,7 +456,7 @@ function loadTrack(track_index) {
   if (now_playing) now_playing.textContent = (track_index + 1) + " / " + track_list.length;
 
   updateTimer = setInterval(seekUpdate, 1000);
-  curr_track.addEventListener("ended", nextTrack);
+  // curr_track.addEventListener("ended", nextTrack);
 
   if (track_select) track_select.value = track_index;
 }
