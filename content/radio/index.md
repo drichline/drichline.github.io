@@ -121,8 +121,8 @@ toc: false
 
 .player-icon-holder {
   border: 2px solid var(--surface);
-  width:95px;
-  height:95px;
+  /* width:95px;
+  height:95px; */
   width:120px;
   height:120px;
   padding: 1px;
@@ -133,7 +133,7 @@ toc: false
   border-style:solid;
   border-color: var(--button-shadow) var(--button-highlight) var(--button-highlight) var(--button-shadow);
   
-  overflow: hidden;
+  overflow: visible;
   position:relative;
   z-index: 2;
 }
