@@ -5,15 +5,15 @@ title: "About Me"
 <img alt="Portrait of Dakota" id="profile" style="max-width:25ch; display: block; margin: auto; border-radius: 50%;" src="/images/mullet.webp">
 
 * I earned a B.S. in aerospace engineering on Florida's Space Coast
-* I'm in the AFF Course at Skydive Sebastian
+* I'm a student skydiver with 30 jumps (and never failed a jump!)
 * I landed a sport plane 78 times (and will gladly accept more flight hours!)
 * I used to machine parts for artificial shoulders and surgical instruments at Exactech
 * I 💜 dimensional analysis, metrology, and the SI
 * Xenon and titanium are my favorite elements
 * My favorite song is [Life on Mars?](/files/lifeonmars.webm)
-* Mercedes is my favorite Formula 1 team
+<!-- * Mercedes is my favorite Formula 1 team
     * Lewis Hamilton, Yuki Tsunoda, and George Russell are my favorite drivers
-    * I used to drive a [CLK](clk.jpg)
+    * I used to drive a [CLK](clk.jpg) -->
 
 
 ---
