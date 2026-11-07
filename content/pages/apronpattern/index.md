@@ -4,7 +4,7 @@ date: "2019-05-23"
 lastmod: "2021-09-19"
 ---
 
-I designed this apron in 2019 for an industrial sewing class at the [NCC Fab Lab](/pages/fablab). Unfortunately, it was the last project I ever worked on in the Lab. 
+I designed this apron in 2019 for an industrial sewing class at the NCC Fab Lab. Unfortunately, it was the last project I ever worked on in the Lab. 
 
 Deluth makes the best apron I've ever worn, so I decided to copy my favorite features and sew one with denim and nylon straps. No pictures because I don't have either of the aprons anymore
 
