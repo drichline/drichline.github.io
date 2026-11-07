@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Internet Radio"
 # date: "2026-10-23"
 # lastmod: "2026-10-23"
 math: false
@@ -9,6 +9,10 @@ toc: false
 
 <!-- Player modified from Loveberry: https://loveberry.nekoweb.org/resources/snippets -->
 <style>
+h1 {
+  display: none;
+}
+
 #musicplayer .title-color img {
     height: 14px;
     width: 14px;
@@ -59,6 +63,7 @@ toc: false
   width: fit-content;
   border:var(--window-frame) solid 1px;
   margin:0 auto;
+  margin-top: 2rem;
     box-shadow: inset -1px -1px var(--window-frame), inset 1px 1px var(--button-face), inset -2px -2px var(--button-shadow), inset 2px 2px var(--button-highlight);
   background: var(--surface);
   padding: 3px;
@@ -380,8 +385,6 @@ toc: false
 </div> -->
 
 <script>
-document.title = "Radio | perilune.space";
-
 // DEFINE YOUR SONGS HERE
 let track_list = [
       {
@@ -424,7 +427,7 @@ let playpause_btn = document.querySelector(".playpause-track");
 let seek_slider = document.querySelector(".seek_slider");
 let curr_time = document.querySelector(".current-time");
 let total_duration = document.querySelector(".total-duration");
-let m3u = document = document.querySelector("#m3u a");
+let m3u = document.querySelector("#m3u a");
 
 let track_index = 0;
 let isPlaying = false;
