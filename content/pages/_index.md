@@ -31,7 +31,7 @@ type: "list"
 
 Here's a list of everything I've published on this website. 
 <!-- "Pinned" pages -->
-### Special pages
+## Special pages
 <ul>
     <li><span style="margin-right: 1rem;"></span><a href="/radio/">Internet Radio</a></li>
     <li><span style="margin-right: 1rem;"></span><a href="/bnuuy/">Bunny memes!</a></li>
@@ -43,4 +43,4 @@ Here's a list of everything I've published on this website.
 
 ---
 
-### Pages by date
+## Pages by date

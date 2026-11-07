@@ -8,7 +8,7 @@ I designed this apron in 2019 for an industrial sewing class at the NCC Fab Lab.
 
 Deluth makes the best apron I've ever worn, so I decided to copy my favorite features and sew one with denim and nylon straps. No pictures because I don't have either of the aprons anymore
 
-### Download the project files [here](Apron.zip)
+## Download the project files [here](Apron.zip)
 
 {{< figure alt="Deluth apron" src="apron.jpg" caption="Deluth Trading Co apron mine is ~~copied from~~ based on" >}}
 
