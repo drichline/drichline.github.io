@@ -156,6 +156,8 @@ h1 {
 
 /* BELOW IS LARGELY RIPPED FROM 98 CSS */
 .track-select {
+color: black;
+
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
