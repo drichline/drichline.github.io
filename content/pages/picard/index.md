@@ -6,7 +6,7 @@ math: true
 #toc: true
 ---
 
-### Note: this article was revised in [Revisiting the "Pi Business Card"](/pages/juliapi)
+### Note: this article was revised in [Revisiting the "Pi Business Card"](/pages/juliapi/)
 
 *Warning: my calculus and programming skills are pretty amateurish. Experts, try not to cringe*
 
