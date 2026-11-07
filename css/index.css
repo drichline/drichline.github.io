@@ -19,6 +19,7 @@
   --text-muted:#aaa;     /* subtitle */
   --accent:    #0181eb;  /* link hover */
   --rule:      #888;     /* mobile nav separators */
+  color-scheme: dark; /* Use dark scrollbars */
 }
 
 html {
