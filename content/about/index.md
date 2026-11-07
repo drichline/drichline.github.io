@@ -2,7 +2,7 @@
 title: "About Me"
 ---
 
-<img alt="Portrait of Dakota" id="profile" style="max-width:25ch; display: block; margin: auto; border-radius: 50%;" src="/images/mullet.webp">
+<img alt="Portrait of Dakota" id="profile" style="max-width:25ch; display: block; margin: auto; border-radius: 50%;" src="/images/SLbunnyavi.png">
 
 * I earned a B.S. in aerospace engineering on Florida's Space Coast
 * I'm a student skydiver with 30 jumps (and never failed a jump!)
