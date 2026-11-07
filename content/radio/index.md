@@ -356,22 +356,22 @@ color: black;
             <div class="player-icon"></div>
             </div>
             <div class="player-main">
-        <select class="track-select"></select>
+        <select class="track-select" aria-label="Track select"></select>
         <p id="m3u"><a href="">Download .m3u</a></p>
       <div class="controls">
           <div class="seeking">
               <div class="current-time">00:00</div>
-              <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+              <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()" aria-label="Seek">
               <div class="total-duration">∞</div>
           </div>
           <div class="player-buttons">
-              <button class="window-button prev-track" onclick="prevTrack()">
+              <button class="window-button prev-track" onclick="prevTrack()" aria-label="Previous track">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-skip-back-icon lucide-skip-back"><path d="M17.971 4.285A2 2 0 0 1 21 6v12a2 2 0 0 1-3.029 1.715l-9.997-5.998a2 2 0 0 1-.003-3.432z"/><path d="M3 20V4"/></svg>
               </button>
-              <button class="window-button playpause-track" onclick="playpauseTrack()">
+              <button class="window-button playpause-track" onclick="playpauseTrack()" aria-label="Play/Pause">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play-icon lucide-play"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/></svg>
               </button>
-              <button class="window-button next-track" onclick="nextTrack()">
+              <button class="window-button next-track" onclick="nextTrack()" aria-label="Next track">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-skip-forward-icon lucide-skip-forward"><path d="M21 4v16"/><path d="M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z"/></svg>
               </button>
           </div>
