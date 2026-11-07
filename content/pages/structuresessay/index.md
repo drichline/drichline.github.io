@@ -1,5 +1,5 @@
 ---
-title: "Essay: Structures Research on Survivablity of Small Debris Impact"
+title: "Essay: Structures Research on Survivability of Small Debris Impact"
 date: "2023-02-08"
 ---
 
