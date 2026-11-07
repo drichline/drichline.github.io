@@ -57,7 +57,7 @@ $$\int_{v_0}^v dv = -v_{eq}\int_{m_0}^{m_f}\frac{dm_v}{m_v}$$
 
 Evaluate at limits:
 
-$$v|^v_{v_0=0} = -v_{eq}\ln m_v|^{m_f}_{m_o}$$
+$$v|^v_{v_0=0} = -v_{eq}\ln m_v|^{m_f}_{m_0}$$
 
 $$\Delta v = v_{eq}[\ln m_0 - \ln m_f]$$
 
