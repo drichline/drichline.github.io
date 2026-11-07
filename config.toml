@@ -2,7 +2,8 @@ baseURL = "https://perilune.space/"
 locale = "en-us"
 title = "perilune.space"
 
-disableKinds=["RSS"]
+#disableKinds=["RSS"]
+disableKinds = ["taxonomy", "term"]
 
 [markup.goldmark.renderer]
 unsafe= true
