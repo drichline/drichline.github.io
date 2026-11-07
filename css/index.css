@@ -383,9 +383,11 @@ footer p {
 @font-face {
     font-family: 'Open Sans';
     src: url(/webfonts/OpenSans-Regular.ttf);
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Tinos';
     src: url(/webfonts/tinos-regular-webfont.woff2);
+    font-display: swap;
   }
