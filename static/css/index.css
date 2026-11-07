@@ -19,6 +19,7 @@
   --text-muted:#aaa;     /* subtitle */
   --accent:    #0181eb;  /* link hover */
   --rule:      #888;     /* mobile nav separators */
+  --border:    #595959;  /* borders */
   color-scheme: dark; /* Use dark scrollbars */
 }
 
@@ -132,10 +133,6 @@ nav.topnav {
     width: 100%;
 }
 
-nav.topnav a:first-child { /*Give first button a left border*/
-    border-left: 1px solid var(--text);
-}
-
 #navbar a {
     display: block;	
     padding-top: 0.3rem;
@@ -207,7 +204,7 @@ main {
 .content blockquote {
     background-color:var(--bg-raised);
     border-radius: 0.5rem;
-    border-left: 0.5rem solid #595959;
+    border-left: 0.5rem solid var(--border);
     padding: 0.1rem;
 }
 
