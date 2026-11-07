@@ -1,6 +1,7 @@
 ---
 title: "AI-Generated altenative ending to Andy Weir's Artemis"
 date: "2025-04-07"
+draft: true
 ---
 
 Jazz Bashara lay motionless on the lunar surface, her body crumpled like a discarded suit. The punctured hamster ball was still gently deflating, air escaping in a steady hiss, the sound barely audible over the comms. Inside the suit, her face was peaceful—oddly serene, considering everything she’d been through. Everything she'd done.
