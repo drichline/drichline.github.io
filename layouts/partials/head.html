@@ -2,6 +2,14 @@
 <title>{{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} | {{ .Site.Title }} {{ end }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="onion-location" content="http://periluneubpgcmw6r5evxgxugbqlae6oizsyekxvqablkl7zhl6knsqd.onion">
+<!-- Meta tags -->
+<!-- <meta name="description" content="{{ .Summary }}"> -->
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<!-- <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}"> -->
+<meta name="theme-color" content="#121212">
+
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link href="/css/index.css" rel="stylesheet">
 {{ if .Params.math }}

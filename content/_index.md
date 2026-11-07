@@ -1,7 +1,10 @@
 ---
-title: ""
+title: "perilune.space"
 summary: "Dakota Richline's Personal Website"
 ---
+
+<meta property="og:type" content="website">
+<meta name="description" content="Dakota Richline's Personal Website">
 
 
 # Hello! 👋🏻
