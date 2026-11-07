@@ -25,7 +25,7 @@ date: "2026-04-04"
 const eridTick = 2.366;
 const eridDay = Math.pow(6, 5) * eridTick;
 const eridYear = 198.8 * eridDay;
-const epoch = new Date(2021, 5, 4);
+const epoch = new Date(2021, 4, 4);
 
 function base6(num) {
     const symbols = ['ℓ', 'Ɪ', 'V', 'λ', '+', '∀'];
@@ -56,7 +56,7 @@ function updateClock() {
     );
 
     const eridDate =
-        "Year " + Math.round(year) +
+        "Year " + Math.floor(year) +
         " day " + Math.round((year - Math.floor(year)) * 198.8);
 
     document.getElementById("time").textContent = eridTime;
