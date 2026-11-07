@@ -18,7 +18,7 @@ title: "About Me"
 
 ---
 
-# About the website
+## About the website
 
 I started this website as a hobby project in 2018, then continued updating it as a hobby and platform to post various things I've written. Freshman year of college (2020) was when I really did any technical writing for the first time, and thus had actual content to put on the site. One thing I really enjoy about running a personal website is that I don’t really have to worry about things like broken links and downtime; it mostly exists for my sake. 
 
